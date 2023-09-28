@@ -1,0 +1,97 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{SI}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ebfb756637ab8a575b14f7712a3df828}{%
+           family={計測太郎，制御花子},
+           familyi={計\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{fullhash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{bibnamehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{authorbibnamehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{authornamehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{authorfullhash}{ebfb756637ab8a575b14f7712a3df828}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{計測自動制御学会SI部門講演会SICE-SI予稿集}
+      \field{title}{{SICE SI予稿原稿の書き方（サンプル）}}
+      \field{year}{20??}
+      \field{pages}{0000\bibrangedash 0000}
+      \range{pages}{1}
+    \endentry
+    \entry{SIbook}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ebfb756637ab8a575b14f7712a3df828}{%
+           family={計測太郎，制御花子},
+           familyi={計\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {計測自動制御学会}%
+      }
+      \strng{namehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{fullhash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{bibnamehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{authorbibnamehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{authornamehash}{ebfb756637ab8a575b14f7712a3df828}
+      \strng{authorfullhash}{ebfb756637ab8a575b14f7712a3df828}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SICE SI予稿原稿の書き方（サンプル本）}}
+      \field{year}{20??}
+    \endentry
+    \entry{WebPage}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=672a59b7950847b1471ea0d3d134b946}{%
+           family={計測自動制御学会},
+           familyi={計\bibinitperiod}}}%
+      }
+      \strng{namehash}{672a59b7950847b1471ea0d3d134b946}
+      \strng{fullhash}{672a59b7950847b1471ea0d3d134b946}
+      \strng{bibnamehash}{672a59b7950847b1471ea0d3d134b946}
+      \strng{authorbibnamehash}{672a59b7950847b1471ea0d3d134b946}
+      \strng{authornamehash}{672a59b7950847b1471ea0d3d134b946}
+      \strng{authorfullhash}{672a59b7950847b1471ea0d3d134b946}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 31.08.2023}
+      \field{title}{{ホーム | 公益社団法人 計測自動制御学会}}
+      \field{year}{1961}
+      \verb{urlraw}
+      \verb https://www.sice.jp/
+      \endverb
+      \verb{url}
+      \verb https://www.sice.jp/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

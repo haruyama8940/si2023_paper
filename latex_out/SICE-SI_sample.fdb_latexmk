@@ -1,0 +1,6 @@
+# Fdb version 4
+["dvipdf"] 0 "latex_out/SICE-SI_sample.dvi" "latex_out/SICE-SI_sample.pdf" "latex_out/SICE-SI_sample" 0 -1
+  "latex_out/SICE-SI_sample.dvi" 0 -1 0 "latex"
+  (generated)
+  "latex_out/SICE-SI_sample.pdf"
+  (rewritten before read)
