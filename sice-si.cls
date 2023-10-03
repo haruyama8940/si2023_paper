@@ -136,7 +136,7 @@
 \captionsetup[figure]{labelsep=space, name=Fig., font=normalsize}
 \captionsetup[subfigure]{labelsep=space, labelformat=simple, name=Fig., font=normalsize}
 \renewcommand*{\thesubfigure}{(\alph{subfigure})}
-\captionsetup[table]{labelsep=space, name=Table, font=normalsize}
+\captionsetup[table]{labelsep=space, name=Table\ , font=normalsize}
 
 % sectionのフォントサイズを11ptに変更
 \RenewBlockHeading{section}{1}{font={\fontsize{12truept}{12truept}\selectfont\bfseries\raggedright}}
