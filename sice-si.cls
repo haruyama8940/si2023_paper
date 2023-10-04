@@ -40,7 +40,8 @@
 \usepackage[hyphens]{xurl} % URLを表示するためのパッケージ、ハイフンでの改行を許可
 \urlstyle{same} % URLの表示形式を本文と同じにする
 \usepackage{enumitem} % 高機能番号付き箇条書きのパッケージ
-\usepackage{graphicx} % 画像の挿入、テキストや図の操作のためのパッケージ
+\usepackage[dvipdfmx]{graphicx}
+% \usepackage{graphicx} % 画像の挿入、テキストや図の操作のためのパッケージ
 \usepackage{amssymb, amsmath} % 高度な数式記述用パッケージ
 \usepackage{mathtools} % 高度な数式記述用パッケージ
 \usepackage{tgtermes} % 欧文、数式のフォントをtimes系に

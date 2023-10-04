@@ -1,0 +1,414 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{okada2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3e704d26bde9973f113017ea1e4e6e47}{%
+           family={岡田眞也，清岡優祐，上田隆一，林原靖男},
+           familyi={岡\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {計測自動制御学会}%
+      }
+      \strng{namehash}{3e704d26bde9973f113017ea1e4e6e47}
+      \strng{fullhash}{3e704d26bde9973f113017ea1e4e6e47}
+      \strng{bibnamehash}{3e704d26bde9973f113017ea1e4e6e47}
+      \strng{authorbibnamehash}{3e704d26bde9973f113017ea1e4e6e47}
+      \strng{authornamehash}{3e704d26bde9973f113017ea1e4e6e47}
+      \strng{authorfullhash}{3e704d26bde9973f113017ea1e4e6e47}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{計測自動制御学会SI部門講演会SICE-SI2020 予稿集}
+      \field{title}{{視覚と行動のend-to-end学習により経路追従行動を オンラインで模倣する手法の提案}}
+      \field{year}{2020}
+      \field{pages}{1147\bibrangedash 1152}
+      \range{pages}{6}
+    \endentry
+    \entry{okada2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f0826ffda782bfb1d49a40b28a2101b2}{%
+           family={岡田眞也，清岡優祐，春山健太，上田隆一，林原靖男},
+           familyi={岡\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {計測自動制御学会}%
+      }
+      \strng{namehash}{f0826ffda782bfb1d49a40b28a2101b2}
+      \strng{fullhash}{f0826ffda782bfb1d49a40b28a2101b2}
+      \strng{bibnamehash}{f0826ffda782bfb1d49a40b28a2101b2}
+      \strng{authorbibnamehash}{f0826ffda782bfb1d49a40b28a2101b2}
+      \strng{authornamehash}{f0826ffda782bfb1d49a40b28a2101b2}
+      \strng{authorfullhash}{f0826ffda782bfb1d49a40b28a2101b2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{計測自動制御学会SI部門講演会SICE-SI2021 予稿集}
+      \field{title}{{視覚と行動のend-to-end学習により経路追従行動を オンラインで模倣する手法の提案 -経路追従行動の修正のためにデータセットを動的に追加する手法の検討-}}
+      \field{year}{2021}
+      \field{pages}{1066\bibrangedash 1070}
+      \range{pages}{5}
+    \endentry
+    \entry{imai2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f9b49c4efef4a6f960fce899f0dedd6a}{%
+           family={今井悠月，清岡優祐，春山健太，上田隆一，林原靖男},
+           familyi={今\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9b49c4efef4a6f960fce899f0dedd6a}
+      \strng{fullhash}{f9b49c4efef4a6f960fce899f0dedd6a}
+      \strng{bibnamehash}{f9b49c4efef4a6f960fce899f0dedd6a}
+      \strng{authorbibnamehash}{f9b49c4efef4a6f960fce899f0dedd6a}
+      \strng{authornamehash}{f9b49c4efef4a6f960fce899f0dedd6a}
+      \strng{authorfullhash}{f9b49c4efef4a6f960fce899f0dedd6a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{視覚と行動のend-to-end 学習により経路追従行動をオンラインで模倣する手法の提案 ー経路への復帰行動の解析と復帰行動を強化する教師データ収集法の検討ー}}
+      \field{year}{2023}
+    \endentry
+    \entry{haruyama2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4558104649ade7a9f0065d83961ee943}{%
+           family={春山健太，藤原柾，清岡優祐，岡田眞也，上田隆一，林原靖男},
+           familyi={春\bibinitperiod}}}%
+      }
+      \strng{namehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{fullhash}{4558104649ade7a9f0065d83961ee943}
+      \strng{bibnamehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{authorbibnamehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{authornamehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{authorfullhash}{4558104649ade7a9f0065d83961ee943}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'22予稿集}
+      \field{title}{{視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案 ―経路選択機能の追加―}}
+      \field{year}{2022}
+    \endentry
+    \entry{fujiwara2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=097ff774297ee0d4a3e388485b0cad72}{%
+           family={藤原柾，春山健太，馬場琉生，上田隆一，林原靖男},
+           familyi={藤\bibinitperiod}}}%
+      }
+      \strng{namehash}{097ff774297ee0d4a3e388485b0cad72}
+      \strng{fullhash}{097ff774297ee0d4a3e388485b0cad72}
+      \strng{bibnamehash}{097ff774297ee0d4a3e388485b0cad72}
+      \strng{authorbibnamehash}{097ff774297ee0d4a3e388485b0cad72}
+      \strng{authornamehash}{097ff774297ee0d4a3e388485b0cad72}
+      \strng{authorfullhash}{097ff774297ee0d4a3e388485b0cad72}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'23予稿集}
+      \field{title}{{視覚と行動のend-to-end 学習により経路追従行動をオンラインで模倣する手法の提案 -実環境における経路選択機能の検証と学習時間の短縮化の検討-}}
+      \field{year}{2023}
+    \endentry
+    \entry{shimada2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=480712cc7e82bf9131de3c5c849ba69f}{%
+           family={島田滉己，上田隆一，林原靖男},
+           familyi={島\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {計測自動制御学会}%
+      }
+      \strng{namehash}{480712cc7e82bf9131de3c5c849ba69f}
+      \strng{fullhash}{480712cc7e82bf9131de3c5c849ba69f}
+      \strng{bibnamehash}{480712cc7e82bf9131de3c5c849ba69f}
+      \strng{authorbibnamehash}{480712cc7e82bf9131de3c5c849ba69f}
+      \strng{authornamehash}{480712cc7e82bf9131de3c5c849ba69f}
+      \strng{authorfullhash}{480712cc7e82bf9131de3c5c849ba69f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{計測自動制御学会SI部門講演会SICE2020 予稿集}
+      \field{title}{{トポロジカルマップを用いたシナリオによるナビゲーションの提案 ーシナリオに基づく実ロボットのナビゲーションー}}
+      \field{year}{2020}
+    \endentry
+    \entry{hara2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4558104649ade7a9f0065d83961ee943}{%
+           family={春山健太，藤原柾，清岡優祐，岡田眞也，上田隆一，林原靖男},
+           familyi={春\bibinitperiod}}}%
+      }
+      \strng{namehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{fullhash}{4558104649ade7a9f0065d83961ee943}
+      \strng{bibnamehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{authorbibnamehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{authornamehash}{4558104649ade7a9f0065d83961ee943}
+      \strng{authorfullhash}{4558104649ade7a9f0065d83961ee943}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'22予稿集}
+      \field{title}{{トポロジカルマップを用いたシナリオによるナビゲーション　 ー全天球カメラを用いた通路分類手法の提案ー}}
+      \field{year}{2022}
+    \endentry
+    \entry{lrcn}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=721996cd3ecf4be7d76c58101cf5faf3}{%
+           family={Bhatt},
+           familyi={B\bibinitperiod},
+           given={Dhaivat},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5bb640097f307fade7e7828fc8c8fc23}{%
+           family={Sodhi},
+           familyi={S\bibinitperiod},
+           given={Danish},
+           giveni={D\bibinitperiod}}}%
+        {{hash=894b320ac42cb6032081b8c838e52aab}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Arghya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=14eeba0edf79eebd8f1d266b1c7f1055}{%
+           family={Balasubramanian},
+           familyi={B\bibinitperiod},
+           given={Vineeth},
+           giveni={V\bibinitperiod}}}%
+        {{hash=01d4f14d490c96357dce14f8bfbd4628}{%
+           family={Krishna},
+           familyi={K\bibinitperiod},
+           given={Madhava},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{02d5106f2f79b6721dffe66ebfbfd33b}
+      \strng{fullhash}{a4025a46a94c6f8b769efc7c235b1640}
+      \strng{bibnamehash}{02d5106f2f79b6721dffe66ebfbfd33b}
+      \strng{authorbibnamehash}{02d5106f2f79b6721dffe66ebfbfd33b}
+      \strng{authornamehash}{02d5106f2f79b6721dffe66ebfbfd33b}
+      \strng{authorfullhash}{a4025a46a94c6f8b769efc7c235b1640}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
+      \field{title}{Have i reached the intersection: A deep learning-based approach for intersection detection from monocular cameras}
+      \field{year}{2017}
+      \field{pages}{4495\bibrangedash 4500}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2017.8206317
+      \endverb
+    \endentry
+    \entry{v3}{misc}{}
+      \name{author}{12}{}{%
+        {{hash=315c4166fc1f7cb66324a7f0d82827cd}{%
+           family={Howard},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f90fd131c2bbfde4d0e9fdd7ed4ea8b}{%
+           family={Sandler},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=23d7392f104cfe02f7b2ad118417c972}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Grace},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9dddfcfd529634a150ee38ee5c0203d7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liang-Chieh},
+           giveni={L\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=31960f03389184b7f052f5b197cc9fdf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1e7d6abb8225099acc71f672b9ec336e}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Mingxing},
+           giveni={M\bibinitperiod}}}%
+        {{hash=47ad65c82b1de7d642988df185d7d8ea}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Weijun},
+           giveni={W\bibinitperiod}}}%
+        {{hash=41859f30c12640f5249fa065131fc2f4}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yukun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=79b11327e6066baac1563390e41c13f2}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Ruoming},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bab2011f2b9e7af47ab45308470b9faf}{%
+           family={Vasudevan},
+           familyi={V\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c636f146591d51579a8119b777394878}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Quoc\bibnamedelima V.},
+           giveni={Q\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=c707ec5b5997dc408a14a34a8380166c}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={Hartwig},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c50b2a45a0cfd3fd86fb7850dc23eb0}
+      \strng{fullhash}{1f186e1a9b32bef8cdecf585255a11d6}
+      \strng{bibnamehash}{9c50b2a45a0cfd3fd86fb7850dc23eb0}
+      \strng{authorbibnamehash}{9c50b2a45a0cfd3fd86fb7850dc23eb0}
+      \strng{authornamehash}{9c50b2a45a0cfd3fd86fb7850dc23eb0}
+      \strng{authorfullhash}{1f186e1a9b32bef8cdecf585255a11d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Searching for MobileNetV3}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1905.02244
+      \endverb
+    \endentry
+    \entry{hukin}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ca4f362f2ec413424f58da9b3e07fc14}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Harsurinder},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d3c778d6cd7e91913849654803fa9cc9}{%
+           family={Pannu},
+           familyi={P\bibinitperiod},
+           given={Husanbir\bibnamedelima Singh},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=acaed90cd082643c392a1d7afc351e54}{%
+           family={Malhi},
+           familyi={M\bibinitperiod},
+           given={Avleen\bibnamedelima Kaur},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{81b35181bc8d611d90eadaafea15806a}
+      \strng{fullhash}{81b35181bc8d611d90eadaafea15806a}
+      \strng{bibnamehash}{81b35181bc8d611d90eadaafea15806a}
+      \strng{authorbibnamehash}{81b35181bc8d611d90eadaafea15806a}
+      \strng{authornamehash}{81b35181bc8d611d90eadaafea15806a}
+      \strng{authorfullhash}{81b35181bc8d611d90eadaafea15806a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In machine learning, the data imbalance imposes challenges to perform data analytics in almost all areas of real-world research. The raw primary data often suffers from the skewed perspective of data distribution of one class over the other as in the case of computer vision, information security, marketing, and medical science. The goal of this article is to present a comparative analysis of the approaches from the reference of data pre-processing, algorithmic and hybrid paradigms for contemporary imbalance data analysis techniques, and their comparative study in lieu of different data distribution and their application areas.}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Comput. Surv.}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{A Systematic Review on Imbalanced Data Challenges in Machine Learning: Applications and Solutions}
+      \field{volume}{52}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1145/3343440
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3343440
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3343440
+      \endverb
+      \keyw{data analysis,machine learning,Data imbalance,sampling}
+    \endentry
+    \entry{cost}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=ffd0b0c3743e938ccac63525d574f0a0}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0fbe769900f4bafb8b0f67d84b00687}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuxiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d5e9b854fa7be64b4aecffbd76ceaebe}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Fanjun},
+           giveni={F\bibinitperiod}}}%
+        {{hash=173948ddc0c0f36ef6706d90ce7756a0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Dashun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0577ec286f43e9fca3f757255d668e92}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Yalan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b71701628b3d95453e7127cfc6ca16d3}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{81a4df077ea9fb9888f286eeb473fe68}
+      \strng{fullhash}{052667a3b0376f900cdafe5b16f8ad6f}
+      \strng{bibnamehash}{81a4df077ea9fb9888f286eeb473fe68}
+      \strng{authorbibnamehash}{81a4df077ea9fb9888f286eeb473fe68}
+      \strng{authornamehash}{81a4df077ea9fb9888f286eeb473fe68}
+      \strng{authorfullhash}{052667a3b0376f900cdafe5b16f8ad6f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 International Conference on Intelligent Technology and Embedded Systems (ICITES)}
+      \field{title}{Fault Diagnosis on Imbalanced Data Using an Adaptive Cost-sensitive Multiscale Attention Network}
+      \field{year}{2021}
+      \field{pages}{77\bibrangedash 82}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICITES53477.2021.9637101
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{kiyooka2021}
+  \missing{takahasi2023}
+\endrefsection
+\endinput
+

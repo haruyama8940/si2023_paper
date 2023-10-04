@@ -332,6 +332,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -359,10 +361,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -752,6 +754,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
@@ -764,12 +770,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 OUTPUT out/SICE-SI_sample.bcf
-INPUT SICE-SI_sample.bbl
-INPUT ./SICE-SI_sample.bbl
-INPUT SICE-SI_sample.bbl
-INPUT ./SICE-SI_sample.bbl
-INPUT ./SICE-SI_sample.bbl
-INPUT SICE-SI_sample.bbl
+INPUT out/SICE-SI_sample.bbl
+INPUT out/SICE-SI_sample.bbl
+INPUT out/SICE-SI_sample.bbl
+INPUT out/SICE-SI_sample.bbl
+INPUT out/SICE-SI_sample.bbl
+INPUT out/SICE-SI_sample.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
@@ -825,15 +831,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
@@ -849,7 +846,64 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
+INPUT ./figs/map_base.png
+INPUT ./figs/map_base.png
+INPUT ./figs/map_base.png
+INPUT extractbb -B cropbox -O ./figs/map_base.png
+INPUT ./figs/system.png
+INPUT ./figs/system.png
+INPUT ./figs/system.png
+INPUT extractbb -B cropbox -O ./figs/system.png
 OUTPUT out/SICE-SI_sample.dvi
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
+INPUT ./figs/lerning_sys.png
+INPUT ./figs/lerning_sys.png
+INPUT ./figs/lerning_sys.png
+INPUT extractbb -B cropbox -O ./figs/lerning_sys.png
+INPUT ./figs/LRCN.png
+INPUT ./figs/LRCN.png
+INPUT ./figs/LRCN.png
+INPUT extractbb -B cropbox -O ./figs/LRCN.png
+INPUT ./figs/intersection.png
+INPUT ./figs/intersection.png
+INPUT ./figs/intersection.png
+INPUT extractbb -B cropbox -O ./figs/intersection.png
+INPUT ./figs/gamma.jpg
+INPUT ./figs/gamma.jpg
+INPUT ./figs/gamma.jpg
+INPUT extractbb -B cropbox -O ./figs/gamma.jpg
+INPUT ./figs/keiro.png
+INPUT ./figs/keiro.png
+INPUT ./figs/keiro.png
+INPUT extractbb -B cropbox -O ./figs/keiro.png
+INPUT ./figs/newroute.png
+INPUT ./figs/newroute.png
+INPUT ./figs/newroute.png
+INPUT extractbb -B cropbox -O ./figs/newroute.png
+INPUT ./figs/scenario24.png
+INPUT ./figs/scenario24.png
+INPUT ./figs/scenario24.png
+INPUT extractbb -B cropbox -O ./figs/scenario24.png
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr-sc.tfm
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT out/SICE-SI_sample.aux
 INPUT out/SICE-SI_sample.run.xml
 OUTPUT out/SICE-SI_sample.run.xml
