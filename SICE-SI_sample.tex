@@ -27,33 +27,37 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 本研究グループでは，end-to-end 学習により，カメラ画像を
 入力として，経路を追従する行動をオンラインで模倣する手
 法を提案してきた．\cite{okada2020}\cite{okada2021}\cite{kiyooka2021}
-\cite{takahasi2023}\cite{imai2023}
-[岡田][岡田][清岡][高橋][今井].
+\cite{takahashi2023}\cite{imai2023}
+% [岡田][岡田][清岡][高橋][今井].
 % \cite{okada2020}
 \cite{haruyama2022}\cite{fujiwara2023}
 % [春山][藤原]
-では，これに経路を選択する機能を追加と，データ収集の変更により学習時間の
+では，これに経路を選択する機能を追加と，データ収集法の変更により学習時間の
 短縮を行っている．この手法の有効性はシミュレータや実ロボットを用いた
 実験により検証している．
 
-これまで提案した手法では，Fig.\ref{fig:mapbase}に示すような地図に基づく経路追従行動を模
-倣して，〜のようなカメラ画像を入力とする経路追従行動
-を生成する．分岐路などでは目標とする進行方向の情報（以後，目標方向
+\par
+これまでに提案した手法では，Fig.\ref{fig:mapbase}に示すような地図に基づく経路追従行動を模
+倣して，
+% 〜のような
+カメラ画像を入力とする経路追従行動
+を生成する．分岐路などで目標とする進行方向の情報（以後，目標方向
 と呼ぶ）に応じて，経路を選択して走行する．\par
 
 この手法により，地図に基づく経路追従とカメラ画像を入力とする経路追従の
 2 つのナビゲーション手段が得られる．この 2 つの手段を状況
 に応じて高い信頼性が見込まれる方を選択することで，
-経路追従を継続できる可能性が高まる．
+経路追従を継続できる可能性が高まる．\par
 \cite{haruyama2022}や\cite{fujiwara2023}では，
 % [春山]や[藤原]では，
 カメラ画像から目標方向を生成する方法を議論の対象としていない．
-そのため，学習後のカメラ画像を入力とする経路追従において，
+そのため，学習後のカメラ画像を入力とする経路追従においても，
 目標方向の生成を，学習時と同様に地図に基づいた制御器から行っていた．
-この制御器への依存を解決を目的として，
+この制御器への依存の解決を目的として，
 \cite{haruyama2022}\cite{fujiwara2023}で述べた
 % [春山藤原]で述べた
-シナリオに基づいたナビゲーション
+条件」と「行動」の単語による
+経路の表現（シナリオと呼ぶ）に基づいたナビゲーション
 \cite{shimada2020}
 % [島田〜原]
 との統合を行う．
@@ -62,32 +66,31 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 \par
 本稿では，カメラ画像を入力とする経路追従に対して，
 カメラ画像から目標方向を生成し，経路の指示を行うナビゲーションの追加について議論する．
-また，実ロボットを用いた実験を通して，追加した要素の有効性を確認する．
-\begin{figure}[h!]
+また，実ロボットを用いた実験を通して，追加した要素の有効性を検証する．
+\begin{figure}[htbp]
     \centering
-     \includegraphics[height=30mm]{./figs/map_base.png}
-     \caption{Methods proposed by this research group}\label{fig:mapbase}
+     \includegraphics[height=40mm,width=80mm]{./figs/map_base.png}
+     \caption{Imitation learning of path-tracking}\label{fig:mapbase}
 \end{figure}
 
 \section{カメラ画像を入力とする経路追従}
-この手法では，カメラ画像と「条件」と「行動」の単語による
-経路の表現（以後，シナリオと呼ぶ）に基づいて，目的地まで自律移動する．
+この手法では，カメラ画像とシナリオに基づいて，目的地まで自律移動する．
 ここではまず初めに全体の流れについて述べた後，
 それぞれの詳細を述べる．
 手法のシステム概要をFig.\ref{fig:system}に示す．
 \begin{figure}[h!]
     \centering
-     \includegraphics[height=30mm]{./figs/system.png}
-     \caption{Methods proposed by this research group}\label{fig:system}
+     \includegraphics[height=40mm,width=70mm]{./figs/system_gai.png}
+     \caption{Methods system overview}\label{fig:system}
 \end{figure}
 \par
-システムは，センサ入力はRGBカメラとし，\\
+システムは，RGBカメラをセンサ入力とし，\\
 1）カメラ画像を入力とする通路分類器\\
 2）シナリオに基づいたナビゲーション\\
 3）経路選択機能を持つ学習器\\
 の3つのモジュールで構成されている．
 
-2）に対してシナリオを入力し，経路を設定を行う．
+2）に対してシナリオを入力し，経路の設定を行う．
 カメラから得た画像データを1）の通路分類器に入力する．
 2）は通路分類器が出力する通路の特徴を基に，目標方向を生成する．
 3）は2）から生成された目標方向とカメラから得た画像データを基に，
@@ -103,24 +106,27 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 地図ベースの制御器が出力するヨー方向の角速度を目標出力として，データセットに加える．
 さらに，設定したバッチサイズ分の教師データをデータセットから抽出し，
 オンラインで模倣学習を行う．この1連の流れを1ステップとする．
-データセットの収集するには，[藤原]で提案された，データセットに加える不均衡の改善，
+データセットの収集には，
+\cite{fujiwara2023}
+% [藤原]
+で提案された，データセットの不均衡の改善，
 学習時における積極的な蛇行といった最も成功率の高い手法を用いる．\par
 学習後，訓練した学習器に対してカメラ画像と目標方向を入力し，
 出力されるヨー方向の角速度，設定した並進速度によりロボットを制御する．
-本稿では，並進速度を0.2m/sに固定する．
+本稿では，並進速度を0.2m/sに設定する．
 \cite{haruyama2022}\cite{fujiwara2023}では
 % [春山][藤原]
 学習後も，
 地図ベースの制御器から生成される目標方向を用いていた．
-本項では，次の小節で述べるシナリオに基づくナビゲーションから生成する．
+本稿では，次の小節で述べるシナリオに基づくナビゲーションから生成する．
 なお学習器のネットワークは
 \cite{haruyama2022}\cite{fujiwara2023}
 % [春山][藤原]
 と同様の構成を用いる．
 \begin{figure}[h!]
     \centering
-     \includegraphics[height=30mm]{./figs/lerning_sys.png}
-     \caption{Methods proposed by this research group}\label{fig:learning}
+     \includegraphics[height=45mm,width=80mm]{./figs/lerning_sys.png}
+     \caption{Imitation learning system with target direction}\label{fig:learning}
 \end{figure}
 \subsection{シナリオに基づいたナビゲーション}
 目的地までの経路の設定および，目標方向の生成を行う
@@ -131,48 +137,47 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 そのデータを基にトポロジカルマップの形式とシナリオ（経路の表現）を用いて
 ロボットをナビゲーションする手法をベースに構成する．
 % ~にトポロジカルマップとシナリオの例を示す．
-
+\par
 目標方向は\cite{shimada2020}
 % [島田]
 で開発された
 1）シナリオからロボットの制御用の手順を生成する機能を拡張して生成する．
-\par
 「3つ目の三叉路まで直進．右折．突き当たりまで直進．停止」
 というシナリオの例を基に1）の機能と目標方向の生成について述べる．
-シナリオを句点ごとに分解後，「条件」と「行動」を示す言葉を抽出し，
-以下の項目に分けて登録する．\\
+この機能では，シナリオを句点ごとに分解後，
+「条件」と「行動」を示す言葉を抽出し，以下の項目に分けて登録する．\\
 1）通路の特徴\\
 2）順番\\
 3）方向\\
 4）行動\\
-シナリオの例は
+シナリオの例は句点ごとに
 3つ目の三叉路まで直進/　
 右折/　
 突き当たりまで直進/　
-停止
-と句点ごとに区切られる．
+停止/　
+と区切られる．
 1つ目の区切りでは
-1）通路の特徴：三叉路　
-2）順番：3　
-4）行動：直進　
-2つ目の区切りでは
-4）行動：右折
+1）通路の特徴：三叉路\\
+2）順番：3\\
+4）行動：直進\\
+2つ目の区切りでは\\
+4）行動：右折\\
 が登録される．
-この一連の作業を最後の「停止」が登録されるまで行う．
+この一連の作業を末尾の区切りである「停止」が登録されるまで行う．
 ここで登録される「行動」をTable \ref{tab:target}に示すワンホットベクトルで表現し，
-目標方向として，〜で述べた学習器へ与える．
+目標方向として，前述の学習器へ与える．
 
 \begin{table}[]
     \centering
-    \caption{Target direction}\label{tab:target}
-    \begin{tabular}{cc}
+    \caption{Target direction and data for imitation learning}\label{tab:target}
+    \begin{tabular}{|c|c|}
     \hline
-    目標方向 & ベクトル        \\
+    Target direction & Data        \\
     \hline
-    直進   & {[}1，0，0{]} \\
-    左折   & {[}0，1，0{]} \\
-    右折   & {[}0，0，1{]} \\
-    停止   & {[}0，0，0{]}\\
+    Go straight   & {[}1，0，0{]} \\
+    Turn left   & {[}0，1，0{]} \\
+    Turn right   & {[}0，0，1{]} \\
+    stop   & {[}0，0，0{]}\\
     \hline
     \end{tabular}
     \end{table}
@@ -184,74 +189,77 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 % [島田][原]
 の手法では2）と3）にLiDARや全天球カメラのセンサ入力を
 必要としている．
-そのため，本項では．
+そのため，本稿では．
 2）の通路の特徴検出を，次の小節で述べるカメラ画像による手法，
 3）に関しては〜で述べた経路選択機能をもつ学習器へ変更している．
 
 \subsection{カメラ画像を用いた通路分類}
-カメラ画像と機械学習を用いて，通路分類を行う通路分類器について述べる．
+カメラ画像と機械学習を用いた通路分類器について述べる．
 通路分類器の概要をFig.\ref{fig:lrcn}に示す．通路分類器は
-シーケンスの画像データを入力とし，出力を通路の特徴の分類としている．
+シーケンスの画像データを入力とし，通路の特徴の分類を出力する．
 通路の特徴の分類は\cite{shimada2020}に倣い,Fig.\ref{fig:intersection}に示した８つとする．
 \begin{figure}[h!]
     \centering
-     \includegraphics[height=30mm]{./figs/LRCN.png}
-     \caption{Methods proposed by this research group}\label{fig:lrcn}
+     \includegraphics[height=40mm,width=80mm]{./figs/LRCN_gai.png}
+     \caption{Types of corridor features classifier overview}\label{fig:lrcn}
 \end{figure}
 \begin{figure}[h!]
     \centering
-     \includegraphics[height=30mm]{./figs/intersection.png}
-     \caption{Methods proposed by this research group}\label{fig:intersection}
+     \includegraphics[height=40mm,width=80mm]{./figs/intersection.png}
+     \caption{Types of corridor features}\label{fig:intersection}
 \end{figure}
 \par
-具体的な通路分類器のネットワーク構造をに示す．
-このアーキテクチャ構造はDhaivatらが提案するCNNとLSTMを組み合わせた
-LRCN\cite{lrcn}を参考としている．
-CNNには実行速度の観点からMobileNetV3-Large\cite{v3}を用いる．
-またフレーム数は16 入力画像サイズを64x48 出力8としている．
+通路分類器のネットワークアーキテクチャは
+Dhaivatらが提案するCNNとLSTMを組み合わせたLRCN\cite{lrcn}を参考として構築した．
+なお本稿では，CNNアーキテクチャをMobileNetV3-Large\cite{v3}，
+シーケンスデータのフレーム数は16 入力画像サイズを64x48 出力8へ変更している．
 \par
-学習するデータセット内で，クラス間のデータ数が大きく異なる不均衡データは，
-分類に大きな影響を与える\cite{hukin}とされている．
+学習するデータセット内で，各クラスのデータ数が大きく異なる不均衡データは，
+分類に大きな影響を与える
+\cite{hukin}
+とされている．
 そのため，本稿では学習する際に，データセット内のクラス間のデータ数によって
 重み付けを行うコストアプローチ\cite{cost}を導入している．
 
 \section{実験}
 経路選択機能をもつ学習器に対して，シナリオに基づいたナビゲーションから
-生成した目標方向をあたえる．
+生成した目標方向を与える．
 これにより，カメラ画像に基づいて指示された経路に従い，目的地へ到達可能であるか
 検証する実験を行う．
 
 \subsection{実験装置}
 実験にはFig.\ref{fig:gamma}で示す本学で開発しているorne gammaをベースに，
 カメラを3つ搭載したロボットを使用する．
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \centering
-     \includegraphics[height=50mm]{./figs/gamma.jpg}
-     \caption{gamma}\label{fig:gamma}
+     \includegraphics[height=50mm]{./figs/gamma_sensor.png}
+     \caption{Experimental setup}\label{fig:gamma}
 \end{figure}
 \subsection{実験方法}
 実験環境としてFig.\ref{fig:cit3f}で示した千葉工業大学津田沼キャンパス2号館3階の廊下を用いる．
 % [藤原]と比較すると，突き当りが追加され，
 % CとDが2つのこと行動を取ることが可能な分岐路へ変化している．
 % 経路[藤原]で用いたa~fに図=で示したc~を追加した，a~nの順で走行する
-[藤原]と比較すると，突き当り，CとDが2つのこと行動がとれる分岐路を追加している．
-経路は[藤原]で用いたa~fへFig.\ref{fig:newroute}で示したg~nを加えた，a~nの順で走行する
+[藤原]と比較すると，突き当り，CとDの2つのこと行動がとれる分岐路を追加している．
+経路は[藤原]で用いたaからfの経路へFig.\ref{fig:newroute}で示したgからnを加えた，
+aからnを順番に走行する．\par
 まず初めに通路分類器の訓練を行う．
 前述の経路を地図ベースの制御器の出力を用いて，3周し，データセットを収集する．
-データセットへのデータの追加は0.125秒周期で行う．
+その際，データセットへのデータの追加は0.125秒周期で行う．
 1，2周目のデータを訓練データとし，3周目のデータをテストデータとする．
-訓練データは〜，テストデータは〜である
+それぞれのデータセットを構成するシーケンス画像の個数は
+訓練データは〜個，テストデータは〜個である
 訓練はバッチサイズは32として，30epoch行った．
-訓練結果のテストデータに対するAccuracyは0.98である．
+訓練の結果，テストデータに対するAccuracyは0.98となった．\par
 次に経路選択機能を持つ学習器の訓練を行う．
 通路分類器の訓練と同様の経路を，オンラインで模倣学習しながら1周走行する．
 その際のステップ数は〜である．
-データセットへのデータの追加は　0.25秒周期で行う．
+データセットへのデータの追加は0.25秒周期で行う．\par
 実験では島田らが用いた50例のシナリオの中から，
-図中に示したエリアを対象とした7例を抽出して用いる．
-その際，~のように1．地図ベースの制御器で通行が困難な場所が含まれるもの．
-〜のように2．その場で「右を向く」といった学習器の出力を用いた走行では達成が困難なもの
-を除外している．
+Fig.\ref{fig:cit3f}に示したエリアを対象とした7例を抽出して用いる．
+その際，1．地図ベースの制御器で通行が困難な場所が含まれるもの．
+2．その場で「右を向く」といった学習器の出力を用いた走行では達成が困難なもの
+を除外している．\par
 抽出した7例のうちの1例のシナリオ，
 また訓練した通路分類器と経路選択機能を持つ学習器をシステムにセットする．
 その後，シナリオのスタート地点へシナリオに基づいた向きでロボットを配置し，
@@ -261,21 +269,21 @@ CNNには実行速度の観点からMobileNetV3-Large\cite{v3}を用いる．
 Fig.\ref{fig:scenario24}に実験で用いたシナリオの1例を示す．
 今回は，実験環境を2号館3階の一部のエリアに限定しているが，
 今後はフロア全体へ拡張する予定である．
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \centering
-     \includegraphics[height=50mm]{./figs/keiro.png}
-     \caption{cit3f}\label{fig:cit3f}
+     \includegraphics[height=40mm,width=80mm]{./figs/keiro.png}
+     \caption{Experimental environment}\label{fig:cit3f}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \centering
-     \includegraphics[height=80mm]{./figs/newroute.png}
-     \caption{newroute}\label{fig:newroute}
+     \includegraphics[height=100mm,width=80mm]{./figs/newroute.png}
+     \caption{Route for the added experiment}\label{fig:newroute}
 \end{figure}
 
 \begin{figure}[h!]
     \centering
      \includegraphics[height=50mm]{./figs/scenario24.png}
-     \caption{scenario24}\label{fig:scenario24}
+     \caption{Example of the scenario}\label{fig:scenario24}
 \end{figure}
 % \begin{figure}[htbp]
 % \begin{center}
@@ -295,10 +303,15 @@ Fig.\ref{fig:scenario24}に実験で用いたシナリオの1例を示す．
 適切に動作することを確認した．
 \begin{table}[]
     \centering
-    \caption{実験結果}\label{tab:result}
-    \begin{tabular}{ccclll}
+    \caption{The number of assistances in the experiment}\label{tab:result}
+    % \begin{tabular}{ccclll}
+        
+    % \begin{tabularx}{\textwidth}{X|X|X}
+    \begin{tabularx}{80mm}{|C|C|C|}
     \hline
-    シナリオNo． & 介入回数（学習器） & 介入回数（通路分類） \\
+    Scenario number used in the experiment & 
+    Number of assistances for deviating from the path & 
+    Number of assistances due to corridor classification failures \\
     \hline
     1       & 0         & 0             \\
     5       & 0         & 0             \\
@@ -308,7 +321,8 @@ Fig.\ref{fig:scenario24}に実験で用いたシナリオの1例を示す．
     24      & 0         & 0             \\
     50      & 0         & 0             \\
     \hline
-    \end{tabular}
+    % \end{tabular}
+    \end{tabularx}
     \end{table}
 
 \section{結言}
@@ -319,37 +333,6 @@ Fig.\ref{fig:scenario24}に実験で用いたシナリオの1例を示す．
 学習器がカメラ画像と生成された目標方向を用いて，
 指定された経路に沿って目的地へ到達可能であることを確認した．
 今後は，実験環境をより広い屋内，または屋外へと拡大する予定である．
-% この7例では，模倣学習側，および通路検出の双方で人間の介入なしで目的地へ到達．
-
-% \subsubsection{基本書式}
-% 原稿の記載内容は，下記の順序とします．
-% \begin{enumerate}[label=\arabic*), labelsep=1em]
-%     \item 和文題目（英文原稿の場合には不要，16ptゴシックフォント推奨，センタリング）
-%     \item 和文著者名・所属（英文原稿の場合には不要，12pt明朝フォント推奨，センタリング，登壇者に○を付加）
-%     \item 英文題目（16pt TeX Gyre Termes Bold推奨，センタリング）
-%     \item 英文著者名・所属（12pt TeX Gyre Termes推奨，センタリング，登壇者に○を付加）
-%     \item 英文アブストラクト（9pt TeX Gyre Termes推奨，3 〜 5行程度，文章両側を10mm程度インデント）
-%     \item 本文（本文文章は10pt明朝フォント推奨，小見出しは12 〜 10pt程度のゴシックフォント推奨）
-%     \item 参考文献（10pt明朝フォント推奨）
-% \end{enumerate}
-% \subsubsection{図と表について}
-% 予稿はPDFファイルとなりますので，図や表はカラーで作成していただいても構いません．
-% ただしファイルサイズの制限にご注意ください．
-% 図のキャプションは図の下にFig.1，Fig.2という具合に，表のキャプションは表の上にTable 1，Table 2という具合にお付けください．（英語表記，フォントは10pt TeX Gyre Termes推奨）
-
-% \section{結言}
-% 本稿はあくまでも予稿原稿を作成するためのガイドラインを示したものです．改行幅やフォントの設定などについては，原稿の内容や量に合わせて適宜判断していただき，原稿を作成してください．
-% また，本稿はSICE-SIの予稿原稿の書き方cite{SI}\cite{SIbook}\cite{WebPage}を参考に，\TeX 用書式を用意したものです．適宜sice-si.clsを変更して使用してください．
-% \cite{okada2020}いき
-% % %参考文献
-% % \begin{thebibliography}{99}
-% %     \bibitem{SI}
-% %     計測太郎，制御花子：
-% %     ``SICE SI予稿原稿の書き方（サンプル）'',
-% %     {\it 計測自動制御学会SI部門講演会SICE-SI予稿集},
-% %     pp.0000--0000 (20??)
-% % \end{thebibliography}
-
-\printbibliography[title=参考文献]
-
+% \printbibliography[title=参考文献]
+% \printbibliography[title=参考文献]
 \end{document}
