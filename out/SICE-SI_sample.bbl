@@ -69,6 +69,49 @@
       \field{pages}{1066\bibrangedash 1070}
       \range{pages}{5}
     \endentry
+    \entry{kiyooka2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7b9af184b7bd731a970385bc0c59babd}{%
+           family={清岡優祐，岡田眞也，岩井一輝，上田隆一，林原靖男},
+           familyi={清\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {計測自動制御学会}%
+      }
+      \strng{namehash}{7b9af184b7bd731a970385bc0c59babd}
+      \strng{fullhash}{7b9af184b7bd731a970385bc0c59babd}
+      \strng{bibnamehash}{7b9af184b7bd731a970385bc0c59babd}
+      \strng{authorbibnamehash}{7b9af184b7bd731a970385bc0c59babd}
+      \strng{authornamehash}{7b9af184b7bd731a970385bc0c59babd}
+      \strng{authorfullhash}{7b9af184b7bd731a970385bc0c59babd}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{計測自動制御学会SI部門講演会SICE-SI2021 予稿集}
+      \field{title}{{視覚と行動のend-to-end学習により経路追従行動を オンラインで模倣する手法の提案 -経路追従行動の修正のためにデータセットを動的に追加する手法の検討-}}
+      \field{year}{2021}
+    \endentry
+    \entry{takahashi2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f949cc19dc4bea4127294d3e758232c3}{%
+           family={髙橋祐樹，白須和暉，藤原柾，上田隆一，林原靖男},
+           familyi={髙\bibinitperiod}}}%
+      }
+      \strng{namehash}{f949cc19dc4bea4127294d3e758232c3}
+      \strng{fullhash}{f949cc19dc4bea4127294d3e758232c3}
+      \strng{bibnamehash}{f949cc19dc4bea4127294d3e758232c3}
+      \strng{authorbibnamehash}{f949cc19dc4bea4127294d3e758232c3}
+      \strng{authornamehash}{f949cc19dc4bea4127294d3e758232c3}
+      \strng{authorfullhash}{f949cc19dc4bea4127294d3e758232c3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'23予稿集}
+      \field{title}{{視覚と行動の end-to-end 学習による経路追従行動の模倣 ―データセットを収集してオフラインで訓練する手法の検討―}}
+      \field{year}{2023}
+    \endentry
     \entry{imai2023}{article}{}
       \name{author}{1}{}{%
         {{hash=f9b49c4efef4a6f960fce899f0dedd6a}{%
@@ -151,6 +194,31 @@
       \field{journaltitle}{計測自動制御学会SI部門講演会SICE2020 予稿集}
       \field{title}{{トポロジカルマップを用いたシナリオによるナビゲーションの提案 ーシナリオに基づく実ロボットのナビゲーションー}}
       \field{year}{2020}
+    \endentry
+    \entry{ros-navigation}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=469e4d6ecb1c1bd2cbc54c33f81f6771}{%
+           family={{ROS Navigation Stack}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{fullhash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{bibnamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{authorbibnamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{authornamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{authorfullhash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 25.10.2023}
+      \field{title}{ROS Navigation Stack}
+      \verb{urlraw}
+      \verb https://github.com/ros-planning/navigation
+      \endverb
+      \verb{url}
+      \verb https://github.com/ros-planning/navigation
+      \endverb
     \endentry
     \entry{hara2022}{article}{}
       \name{author}{1}{}{%
@@ -407,8 +475,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{kiyooka2021}
-  \missing{takahasi2023}
 \endrefsection
 \endinput
 

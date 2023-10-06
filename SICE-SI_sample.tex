@@ -9,8 +9,8 @@
 \etitle{A proposal for an online imitation method of
 path-tracking behavior by end-to-end learning of vision and action\\
 - Adding the function of path selection based on \\a topological map and scenario -} % 英文タイトル
-\ename{○Kenta HARUYAMA (CIT)，Masaki FUJIWARA (CIT)，Baba RYUSEI (CIT)，\\
-Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名（英）
+\ename{○Kenta HARUYAMA (CIT)，Masaki FUJIWARA (CIT)，Ryusei BABA (CIT)，\\
+Takumi ISHIGURO (CIT)，Ryuichi UEDA (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名（英）
 
 \begin{document}
 % アブストラクト
@@ -37,8 +37,8 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 実験により検証している．
 
 \par
-これまでに提案した手法では，Fig.\ref{fig:mapbase}に示すような地図に基づく経路追従行動を模
-倣して，
+これまでに提案した手法では，Fig.\ref{fig:mapbase}に示すような
+地図に基づく経路追従行動を模倣することで，
 % 〜のような
 カメラ画像を入力とする経路追従行動
 を生成する．分岐路などで目標とする進行方向の情報（以後，目標方向
@@ -66,7 +66,7 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 \par
 本稿では，カメラ画像を入力とする経路追従に対して，
 カメラ画像から目標方向を生成し，経路の指示を行うナビゲーションの追加について議論する．
-また，実ロボットを用いた実験を通して，追加した要素の有効性を検証する．
+また，実ロボットを用いた実験を通して，追加したシステムが適切に動作するか検証する．
 \begin{figure}[htbp]
     \centering
      \includegraphics[height=40mm,width=80mm]{./figs/map_base.png}
@@ -101,7 +101,7 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 \subsection{経路選択機能を持つ学習器}
 学習器のシステムをFig.\ref{fig:learning}に示す．
 学習時は，2D-LiDARやオドメトリ，占有格子地図に基づく，
-地図ベースの制御器によって，設定した経路を走行する．
+地図ベースの制御器（ROS Navigation Stack\cite{ros-navigation}）によって，設定した経路を走行する．
 その際，入力をカメラ画像，目標方向，
 地図ベースの制御器が出力するヨー方向の角速度を目標出力として，データセットに加える．
 さらに，設定したバッチサイズ分の教師データをデータセットから抽出し，
@@ -125,7 +125,7 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 と同様の構成を用いる．
 \begin{figure}[h!]
     \centering
-     \includegraphics[height=45mm,width=80mm]{./figs/lerning_sys.png}
+     \includegraphics[height=45mm,width=80mm]{./figs/learning_gamma.png}
      \caption{Imitation learning system with target direction}\label{fig:learning}
 \end{figure}
 \subsection{シナリオに基づいたナビゲーション}
@@ -191,7 +191,7 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 必要としている．
 そのため，本稿では．
 2）の通路の特徴検出を，次の小節で述べるカメラ画像による手法，
-3）に関しては〜で述べた経路選択機能をもつ学習器へ変更している．
+3）に関しては前述した経路選択機能をもつ学習器へ変更している．
 
 \subsection{カメラ画像を用いた通路分類}
 カメラ画像と機械学習を用いた通路分類器について述べる．
@@ -206,7 +206,7 @@ Takumi ISIGURO (CIT)，Ueda RYUICHI (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名�
 \begin{figure}[h!]
     \centering
      \includegraphics[height=40mm,width=80mm]{./figs/intersection.png}
-     \caption{Types of corridor features}\label{fig:intersection}
+     \caption{Types of corridor features\cite{shimada2020}}\label{fig:intersection}
 \end{figure}
 \par
 通路分類器のネットワークアーキテクチャは
@@ -228,7 +228,7 @@ Dhaivatらが提案するCNNとLSTMを組み合わせたLRCN\cite{lrcn}を参考
 検証する実験を行う．
 
 \subsection{実験装置}
-実験にはFig.\ref{fig:gamma}で示す本学で開発しているorne gammaをベースに，
+実験にはFig.\ref{fig:gamma}で示す本学で開発しているORNE-gammaをベースに，
 カメラを3つ搭載したロボットを使用する．
 \begin{figure}[htbp]
     \centering
@@ -240,7 +240,7 @@ Dhaivatらが提案するCNNとLSTMを組み合わせたLRCN\cite{lrcn}を参考
 % [藤原]と比較すると，突き当りが追加され，
 % CとDが2つのこと行動を取ることが可能な分岐路へ変化している．
 % 経路[藤原]で用いたa~fに図=で示したc~を追加した，a~nの順で走行する
-[藤原]と比較すると，突き当り，CとDの2つのこと行動がとれる分岐路を追加している．
+[藤原]と比較すると，突き当り，2つのこと行動がとれる分岐路C，Dが追加されている．
 経路は[藤原]で用いたaからfの経路へFig.\ref{fig:newroute}で示したgからnを加えた，
 aからnを順番に走行する．\par
 まず初めに通路分類器の訓練を行う．
@@ -248,7 +248,7 @@ aからnを順番に走行する．\par
 その際，データセットへのデータの追加は0.125秒周期で行う．
 1，2周目のデータを訓練データとし，3周目のデータをテストデータとする．
 それぞれのデータセットを構成するシーケンス画像の個数は
-訓練データは〜個，テストデータは〜個である
+訓練データは5781個，テストデータは2902個である．
 訓練はバッチサイズは32として，30epoch行った．
 訓練の結果，テストデータに対するAccuracyは0.98となった．\par
 次に経路選択機能を持つ学習器の訓練を行う．
@@ -327,11 +327,12 @@ Fig.\ref{fig:scenario24}に実験で用いたシナリオの1例を示す．
 
 \section{結言}
 本稿では，経路選択機能を持つ学習器を用いた走行に対して，
-カメラ画像からの目標方向の生成を目的として，シナリオを用いたナビゲーションと通路分類器の
+カメラ画像からの目標方向の生成を目的として，シナリオを
+用いたナビゲーションと通路分類器の
 追加を行った．
-実験からシナリオとカメラ画像を用いて目標方向の生成を行い，
+実験から,シナリオとカメラ画像を用いて目標方向の生成を行い，
 学習器がカメラ画像と生成された目標方向を用いて，
-指定された経路に沿って目的地へ到達可能であることを確認した．
+指定された経路に沿って目的地へ到達可能なことを確認した．
 今後は，実験環境をより広い屋内，または屋外へと拡大する予定である．
 % \printbibliography[title=参考文献]
 % \printbibliography[title=参考文献]
