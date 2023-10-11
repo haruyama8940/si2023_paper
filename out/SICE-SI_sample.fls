@@ -675,6 +675,19 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pxufont/pxufont-ruby.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pxufont/pxufont-ruby.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -858,14 +871,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT ./figs/map_base.png
-INPUT ./figs/map_base.png
-INPUT ./figs/map_base.png
-INPUT extractbb -B cropbox -O ./figs/map_base.png
-INPUT ./figs/system_gai.png
-INPUT ./figs/system_gai.png
-INPUT ./figs/system_gai.png
-INPUT extractbb -B cropbox -O ./figs/system_gai.png
+INPUT ./figs/camera_base.png
+INPUT ./figs/camera_base.png
+INPUT ./figs/camera_base.png
+INPUT extractbb -B cropbox -O ./figs/camera_base.png
+INPUT ./figs/abs_50.png
+INPUT ./figs/abs_50.png
+INPUT ./figs/abs_50.png
+INPUT extractbb -B cropbox -O ./figs/abs_50.png
 OUTPUT out/SICE-SI_sample.dvi
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
@@ -881,26 +894,39 @@ INPUT ./figs/LRCN_gai.png
 INPUT ./figs/LRCN_gai.png
 INPUT ./figs/LRCN_gai.png
 INPUT extractbb -B cropbox -O ./figs/LRCN_gai.png
-INPUT ./figs/intersection.png
-INPUT ./figs/intersection.png
-INPUT ./figs/intersection.png
-INPUT extractbb -B cropbox -O ./figs/intersection.png
+INPUT ./figs/type.png
+INPUT ./figs/type.png
+INPUT ./figs/type.png
+INPUT extractbb -B cropbox -O ./figs/type.png
 INPUT ./figs/gamma_sensor.png
 INPUT ./figs/gamma_sensor.png
 INPUT ./figs/gamma_sensor.png
 INPUT extractbb -B cropbox -O ./figs/gamma_sensor.png
-INPUT ./figs/keiro.png
-INPUT ./figs/keiro.png
-INPUT ./figs/keiro.png
-INPUT extractbb -B cropbox -O ./figs/keiro.png
-INPUT ./figs/newroute.png
-INPUT ./figs/newroute.png
-INPUT ./figs/newroute.png
-INPUT extractbb -B cropbox -O ./figs/newroute.png
+INPUT ./figs/cit3f.png
+INPUT ./figs/cit3f.png
+INPUT ./figs/cit3f.png
+INPUT extractbb -B cropbox -O ./figs/cit3f.png
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr-sc.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT ./figs/route.png
+INPUT ./figs/route.png
+INPUT ./figs/route.png
+INPUT extractbb -B cropbox -O ./figs/route.png
 INPUT ./figs/scenario24.png
 INPUT ./figs/scenario24.png
 INPUT ./figs/scenario24.png
 INPUT extractbb -B cropbox -O ./figs/scenario24.png
+INPUT ./figs/exp_etc.png
+INPUT ./figs/exp_etc.png
+INPUT ./figs/exp_etc.png
+INPUT extractbb -B cropbox -O ./figs/exp_etc.png
 INPUT out/SICE-SI_sample.aux
 INPUT out/SICE-SI_sample.run.xml
 OUTPUT out/SICE-SI_sample.run.xml

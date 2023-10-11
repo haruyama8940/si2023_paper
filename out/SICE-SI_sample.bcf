@@ -2344,49 +2344,27 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">okada2020</bcf:citekey>
-    <bcf:citekey order="2">okada2021</bcf:citekey>
-    <bcf:citekey order="3">kiyooka2021</bcf:citekey>
-    <bcf:citekey order="4">takahashi2023</bcf:citekey>
-    <bcf:citekey order="5">imai2023</bcf:citekey>
-    <bcf:citekey order="6">haruyama2022</bcf:citekey>
-    <bcf:citekey order="7">fujiwara2023</bcf:citekey>
-    <bcf:citekey order="8">haruyama2022</bcf:citekey>
-    <bcf:citekey order="9">fujiwara2023</bcf:citekey>
-    <bcf:citekey order="10">haruyama2022</bcf:citekey>
-    <bcf:citekey order="11">fujiwara2023</bcf:citekey>
-    <bcf:citekey order="12">shimada2020</bcf:citekey>
-    <bcf:citekey order="13">ros-navigation</bcf:citekey>
-    <bcf:citekey order="14">fujiwara2023</bcf:citekey>
-    <bcf:citekey order="15">haruyama2022</bcf:citekey>
-    <bcf:citekey order="16">fujiwara2023</bcf:citekey>
-    <bcf:citekey order="17">haruyama2022</bcf:citekey>
-    <bcf:citekey order="18">fujiwara2023</bcf:citekey>
-    <bcf:citekey order="19">shimada2020</bcf:citekey>
-    <bcf:citekey order="20">shimada2020</bcf:citekey>
-    <bcf:citekey order="21">shimada2020</bcf:citekey>
-    <bcf:citekey order="22">hara2022</bcf:citekey>
-    <bcf:citekey order="23">shimada2020</bcf:citekey>
-    <bcf:citekey order="24">shimada2020</bcf:citekey>
-    <bcf:citekey order="25">shimada2020</bcf:citekey>
-    <bcf:citekey order="26">lrcn</bcf:citekey>
-    <bcf:citekey order="27">v3</bcf:citekey>
-    <bcf:citekey order="28">hukin</bcf:citekey>
-    <bcf:citekey order="29">cost</bcf:citekey>
-    <bcf:citekey order="30">okada2020</bcf:citekey>
-    <bcf:citekey order="31">okada2021</bcf:citekey>
-    <bcf:citekey order="32">kiyooka2021</bcf:citekey>
-    <bcf:citekey order="33">takahashi2023</bcf:citekey>
-    <bcf:citekey order="34">imai2023</bcf:citekey>
-    <bcf:citekey order="35">haruyama2022</bcf:citekey>
-    <bcf:citekey order="36">fujiwara2023</bcf:citekey>
-    <bcf:citekey order="37">shimada2020</bcf:citekey>
-    <bcf:citekey order="38">ros-navigation</bcf:citekey>
-    <bcf:citekey order="39">hara2022</bcf:citekey>
-    <bcf:citekey order="40">lrcn</bcf:citekey>
-    <bcf:citekey order="41">v3</bcf:citekey>
-    <bcf:citekey order="42">hukin</bcf:citekey>
-    <bcf:citekey order="43">cost</bcf:citekey>
+    <bcf:citekey order="1">haruyama2022</bcf:citekey>
+    <bcf:citekey order="2">fujiwara2023</bcf:citekey>
+    <bcf:citekey order="3">ros-navigation</bcf:citekey>
+    <bcf:citekey order="4">haruyama2022</bcf:citekey>
+    <bcf:citekey order="5">fujiwara2023</bcf:citekey>
+    <bcf:citekey order="6">shimada2020</bcf:citekey>
+    <bcf:citekey order="7">shimada2020</bcf:citekey>
+    <bcf:citekey order="8">ros-navigation</bcf:citekey>
+    <bcf:citekey order="9">shimada2020</bcf:citekey>
+    <bcf:citekey order="10">lrcn</bcf:citekey>
+    <bcf:citekey order="11">v3</bcf:citekey>
+    <bcf:citekey order="12">hukin</bcf:citekey>
+    <bcf:citekey order="13">cost</bcf:citekey>
+    <bcf:citekey order="14">haruyama2022</bcf:citekey>
+    <bcf:citekey order="15">fujiwara2023</bcf:citekey>
+    <bcf:citekey order="16">ros-navigation</bcf:citekey>
+    <bcf:citekey order="17">shimada2020</bcf:citekey>
+    <bcf:citekey order="18">lrcn</bcf:citekey>
+    <bcf:citekey order="19">v3</bcf:citekey>
+    <bcf:citekey order="20">hukin</bcf:citekey>
+    <bcf:citekey order="21">cost</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
@@ -2395,4 +2373,13 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="none/global//global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.7.17)  6 OCT 2023 16:19
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.7.17)  11 OCT 2023 18:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,6 +394,8 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 Package: plsiunitx 2019/06/06 v0.3 siunitx package for pLaTeX/upLaTeX
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/share/texlive/texmf-dist/tex/platex/pxchfon/pxchfon.sty
+Package: pxchfon 2021/05/30 v1.9
 ) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
@@ -617,8 +619,8 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
-Package biblatex Info: Delimiter 'nametitledelim' in context 'bib' already defined, overwriting on input line 93.
-Package biblatex Info: Redefining '\cite' on input line 127.
+Package biblatex Info: Delimiter 'nametitledelim' in context 'bib' already defined, overwriting on input line 94.
+Package biblatex Info: Redefining '\cite' on input line 128.
 )
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 15.
 \@quotelevel=\count430
@@ -667,148 +669,187 @@ Package biblatex Info: ... file 'SICE-SI_sample.bbl' found.
 Package biblatex Info: Reference section=0 on input line 15.
 Package biblatex Info: Reference segment=0 on input line 15.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.0pt on input line 22.
+(Font)              scaled to size 16.0pt on input line 25.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.0pt on input line 22.
+(Font)              scaled to size 16.0pt on input line 25.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 25.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 25.
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <16> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 22.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 16.0pt on input line 22.
+(Font)              scaled to size 16.0pt on input line 25.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <16> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 22.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 16.0pt on input line 22.
+(Font)              scaled to size 16.0pt on input line 25.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 22.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 22.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 22.
+(Font)              scaled to size 9.0pt on input line 25.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 25.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 22.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 25.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 22.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 25.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 22.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 25.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 22.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+(Font)              <6> on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 27.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 27.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 29.
+(Font)              <10> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 36.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 29.
+(Font)              scaled to size 7.0pt on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 29.
-File: ./figs/map_base.png Graphic file (type bmp)
-<./figs/map_base.png>
+(Font)              scaled to size 7.0pt on input line 36.
 
-Underfull \vbox (badness 7081) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: ./figs/system_gai.png Graphic file (type bmp)
-<./figs/system_gai.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+File: ./figs/camera_base.png Graphic file (type bmp)
+<./figs/camera_base.png>
+File: ./figs/abs_50.png Graphic file (type bmp)
+<./figs/abs_50.png>
 [1
 
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.0pt on input line 102.
+(Font)              scaled to size 11.0pt on input line 131.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.0pt on input line 102.
+(Font)              scaled to size 11.0pt on input line 131.
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <11> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 102.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.0pt on input line 102.
+(Font)              scaled to size 11.0pt on input line 131.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <11> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 102.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.0pt on input line 102.
+(Font)              scaled to size 11.0pt on input line 131.
 File: ./figs/learning_gamma.png Graphic file (type bmp)
 <./figs/learning_gamma.png>
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `h') on input line 170.
+               Default added (so using `h') on input line 206.
 
 File: ./figs/LRCN_gai.png Graphic file (type bmp)
 <./figs/LRCN_gai.png>
-File: ./figs/intersection.png Graphic file (type bmp)
-<./figs/intersection.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./figs/type.png Graphic file (type bmp)
+<./figs/type.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
 File: ./figs/gamma_sensor.png Graphic file (type bmp)
 <./figs/gamma_sensor.png>
-File: ./figs/keiro.png Graphic file (type bmp)
-<./figs/keiro.png>
-File: ./figs/newroute.png Graphic file (type bmp)
-<./figs/newroute.png>
+[3]
+File: ./figs/cit3f.png Graphic file (type bmp)
+<./figs/cit3f.png>
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 362.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 362.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 362.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 362.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 362.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 362.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 362.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 362.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 3158) in paragraph at lines 362--362
+[]\T1/qtm/m/n/10 Andrew Howard et al.: \T1/qtm/m/it/10 Search-ing for Mo-bileNetV3\T1/qtm/m/n/10 .
+ []
+
+File: ./figs/route.png Graphic file (type bmp)
+<./figs/route.png>
 File: ./figs/scenario24.png Graphic file (type bmp)
 <./figs/scenario24.png>
+File: ./figs/exp_etc.png Graphic file (type bmp)
+<./figs/exp_etc.png>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `h') on input line 304.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[4]
 ***** List of packages loaded by `plautopatch': *****
  plarray, plsiunitx.
 *****************************************************
-[3] [4
+[5
 
-] (out/SICE-SI_sample.aux)
+] [6] (out/SICE-SI_sample.aux)
 Package logreq Info: Writing requests to 'SICE-SI_sample.run.xml'.
 \openout1 = `SICE-SI_sample.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19149 strings out of 478741
- 420428 string characters out of 5860982
- 1074695 words of memory out of 5000000
- 37326 multiletter control sequences out of 15000+600000
- 533594 words of font info for 109 fonts, out of 8000000 for 9000
+ 19818 strings out of 478741
+ 432216 string characters out of 5860982
+ 1099201 words of memory out of 5000000
+ 37983 multiletter control sequences out of 15000+600000
+ 540723 words of font info for 114 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 96i,11n,93p,1172b,1688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,8n,93p,1172b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/SICE-SI_sample.dvi (4 pages, 25008 bytes).
+Output written on out/SICE-SI_sample.dvi (6 pages, 29456 bytes).

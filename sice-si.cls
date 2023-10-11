@@ -52,7 +52,7 @@
 \usepackage[T1]{fontenc} % 欧文フォントを標準以外に
 \usepackage{siunitx} % SI単位記法に準拠した形式で単位を書くためのパッケージ
 \usepackage{indentfirst} % 最初の段落でインデントするためのパッケージ
-
+\usepackage[ipa]{pxchfon}
 \ifptex
     \ifnativeuptex
     %upLaTeX
@@ -69,6 +69,7 @@
     \usepackage{hyperxmp} % PDFのメタデータを設定するためのパッケージ
 \fi
 
+% \usepackage[backend=biber,style=numeric-comp, sorting=none]{biblatex} % biblatexを使用するためのパッケージ
 \usepackage[backend=biber,style=numeric, sorting=none]{biblatex} % biblatexを使用するためのパッケージ
 \addbibresource{references.bib}
 
