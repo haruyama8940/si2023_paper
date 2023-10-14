@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.7.17)  11 OCT 2023 18:23
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.7.17)  14 OCT 2023 19:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -620,7 +620,6 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 ))
 Package biblatex Info: Delimiter 'nametitledelim' in context 'bib' already defined, overwriting on input line 94.
-Package biblatex Info: Redefining '\cite' on input line 128.
 )
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 15.
 \@quotelevel=\count430
@@ -726,130 +725,147 @@ LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 36.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 36.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 36.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 36.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 36.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figs/camera_base.png Graphic file (type bmp)
 <./figs/camera_base.png>
-File: ./figs/abs_50.png Graphic file (type bmp)
-<./figs/abs_50.png>
+File: ./figs/abs50.png Graphic file (type bmp)
+<./figs/abs50.png>
 [1
 
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.0pt on input line 131.
+(Font)              scaled to size 11.0pt on input line 122.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.0pt on input line 131.
+(Font)              scaled to size 11.0pt on input line 122.
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <11> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 131.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 122.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.0pt on input line 131.
+(Font)              scaled to size 11.0pt on input line 122.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <11> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 131.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 122.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.0pt on input line 131.
-File: ./figs/learning_gamma.png Graphic file (type bmp)
-<./figs/learning_gamma.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(Font)              scaled to size 11.0pt on input line 122.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+File: ./figs/learning_gamma.png Graphic file (type bmp)
+<./figs/learning_gamma.png>
+[2]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `h') on input line 206.
+               Default added (so using `h') on input line 204.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 207.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 207.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 207.
 File: ./figs/LRCN_gai.png Graphic file (type bmp)
 <./figs/LRCN_gai.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: ./figs/type.png Graphic file (type bmp)
 <./figs/type.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2]
 File: ./figs/gamma_sensor.png Graphic file (type bmp)
 <./figs/gamma_sensor.png>
 [3]
 File: ./figs/cit3f.png Graphic file (type bmp)
 <./figs/cit3f.png>
+File: ./figs/route.png Graphic file (type bmp)
+<./figs/route.png>
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 362.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 362.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 362.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 362.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 362.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 362.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 369.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 362.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 362.
+(Font)              scaled to size 10.0pt on input line 369.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 369.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 3158) in paragraph at lines 362--362
+Underfull \hbox (badness 3158) in paragraph at lines 369--369
 []\T1/qtm/m/n/10 Andrew Howard et al.: \T1/qtm/m/it/10 Search-ing for Mo-bileNetV3\T1/qtm/m/n/10 .
  []
 
-File: ./figs/route.png Graphic file (type bmp)
-<./figs/route.png>
-File: ./figs/scenario24.png Graphic file (type bmp)
-<./figs/scenario24.png>
-File: ./figs/exp_etc.png Graphic file (type bmp)
-<./figs/exp_etc.png>
+File: figs/scenario01.png Graphic file (type bmp)
+<figs/scenario01.png>
+File: figs/scenario05.png Graphic file (type bmp)
+<figs/scenario05.png>
+File: figs/scenario20.png Graphic file (type bmp)
+<figs/scenario20.png>
+File: figs/scenario21.png Graphic file (type bmp)
+<figs/scenario21.png>
+File: figs/scenario22.png Graphic file (type bmp)
+<figs/scenario22.png>
+File: figs/scenario24.png Graphic file (type bmp)
+<figs/scenario24.png>
+File: figs/scenario50.png Graphic file (type bmp)
+<figs/scenario50.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (19.99997pt too wide) in paragraph at lines 372--416
+[][][][] 
+ []
 
-[4]
+
+LaTeX Warning: Float too large for page by 59.8784pt on input line 417.
+
+File: figs/exp_path_follow_0.png Graphic file (type bmp)
+<figs/exp_path_follow_0.png>
+File: figs/exp_path_follow_1.png Graphic file (type bmp)
+<figs/exp_path_follow_1.png>
+File: figs/exp_path_follow_2.png Graphic file (type bmp)
+<figs/exp_path_follow_2.png>
+File: figs/exp_path_follow_4.png Graphic file (type bmp)
+<figs/exp_path_follow_4.png>
+File: figs/exp_path_follow_5.png Graphic file (type bmp)
+<figs/exp_path_follow_5.png>
+
+Overfull \hbox (19.99997pt too wide) in paragraph at lines 419--449
+[][][][] 
+ []
+
 ***** List of packages loaded by `plautopatch': *****
  plarray, plsiunitx.
 *****************************************************
-[5
-
-] [6] (out/SICE-SI_sample.aux)
+[4] [5] [6] (out/SICE-SI_sample.aux)
 Package logreq Info: Writing requests to 'SICE-SI_sample.run.xml'.
 \openout1 = `SICE-SI_sample.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19818 strings out of 478741
- 432216 string characters out of 5860982
- 1099201 words of memory out of 5000000
- 37983 multiletter control sequences out of 15000+600000
- 540723 words of font info for 114 fonts, out of 8000000 for 9000
+ 19894 strings out of 478741
+ 434105 string characters out of 5860982
+ 1098334 words of memory out of 5000000
+ 38047 multiletter control sequences out of 15000+600000
+ 536969 words of font info for 111 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 96i,8n,93p,1172b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,13n,93p,1172b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/SICE-SI_sample.dvi (6 pages, 29456 bytes).
+Output written on out/SICE-SI_sample.dvi (6 pages, 31308 bytes).

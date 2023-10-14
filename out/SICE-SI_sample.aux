@@ -12,8 +12,6 @@
 \abx@aux@segm{0}{0}{fujiwara2023}
 \abx@aux@cite{0}{shimada2020}
 \abx@aux@segm{0}{0}{shimada2020}
-\abx@aux@cite{0}{shimada2020}
-\abx@aux@segm{0}{0}{shimada2020}
 \@writefile{toc}{\contentsline {section}{\numberline {1.\hskip 1em\relax }緒言}{1}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Path selection and following behavior based on camera images and target direction by imitation learning.\relax }}{1}{}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
@@ -21,6 +19,14 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.\hskip 1em\relax }提案手法}{1}{}\protected@file@percent }
 \abx@aux@cite{0}{ros-navigation}
 \abx@aux@segm{0}{0}{ros-navigation}
+\abx@aux@cite{0}{fujiwara2023}
+\abx@aux@segm{0}{0}{fujiwara2023}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Overview of the system used in the method\relax }}{2}{}\protected@file@percent }
+\newlabel{fig:system}{{2}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1\hskip 1em\relax }カメラ画像と目標方向に基づく経路追従}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Imitation learning system with target direction\relax }}{2}{}\protected@file@percent }
+\newlabel{fig:learning}{{3}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2\hskip 1em\relax }シナリオから目標方向への変換}{2}{}\protected@file@percent }
 \abx@aux@cite{0}{shimada2020}
 \abx@aux@segm{0}{0}{shimada2020}
 \abx@aux@cite{0}{lrcn}
@@ -31,15 +37,9 @@
 \abx@aux@segm{0}{0}{hukin}
 \abx@aux@cite{0}{cost}
 \abx@aux@segm{0}{0}{cost}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1\hskip 1em\relax }カメラ画像と目標方向を入力とする経路追従}{2}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2\hskip 1em\relax }シナリオに基づいた目標方向の指示}{2}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Target direction and data for imitation learning\relax }}{2}{}\protected@file@percent }
-\newlabel{tab:target}{{1}{2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3\hskip 1em\relax }カメラ画像を用いた通路分類}{2}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Overview of the system used in the method\relax }}{3}{}\protected@file@percent }
-\newlabel{fig:system}{{2}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Imitation learning system with target direction\relax }}{3}{}\protected@file@percent }
-\newlabel{fig:learning}{{3}{3}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Target direction and data for imitation learning\relax }}{3}{}\protected@file@percent }
+\newlabel{tab:target}{{1}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3\hskip 1em\relax }通路の特徴を分類する通路分類器}{3}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Types of corridor features classifier overview\relax }}{3}{}\protected@file@percent }
 \newlabel{fig:lrcn}{{4}{3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Types of corridor features\relax }}{3}{}\protected@file@percent }
@@ -51,15 +51,29 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2\hskip 1em\relax }実験方法}{3}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Experimental environment\relax }}{4}{}\protected@file@percent }
 \newlabel{fig:cit3f}{{7}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3\hskip 1em\relax }実験結果}{4}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.\hskip 1em\relax }結言}{4}{}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Route for the experiment\relax }}{4}{}\protected@file@percent }
 \newlabel{fig:newroute}{{8}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Example of the scenario\relax }}{5}{}\protected@file@percent }
-\newlabel{fig:scenario24}{{9}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Example of the scenario\relax }}{6}{}\protected@file@percent }
-\newlabel{fig:exp}{{10}{6}}
-\abx@aux@read@bbl@mdfivesum{7D69FE3966DF0BD10408134155BB974E}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3\hskip 1em\relax }実験結果}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.\hskip 1em\relax }結言}{4}{}\protected@file@percent }
+\newlabel{composite}{{9(a)}{5}}
+\newlabel{sub@composite}{{(a)}{5}}
+\newlabel{Gradation}{{9(b)}{5}}
+\newlabel{sub@Gradation}{{(b)}{5}}
+\newlabel{fill}{{9(c)}{5}}
+\newlabel{sub@fill}{{(c)}{5}}
+\newlabel{transform}{{9(d)}{5}}
+\newlabel{sub@transform}{{(d)}{5}}
+\newlabel{image1}{{9(e)}{5}}
+\newlabel{sub@image1}{{(e)}{5}}
+\newlabel{fig:scenario24}{{9(f)}{5}}
+\newlabel{sub@fig:scenario24}{{(f)}{5}}
+\newlabel{imagess}{{9(g)}{5}}
+\newlabel{sub@imagess}{{(g)}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Example of the scenario used in the experiment\relax }}{5}{}\protected@file@percent }
+\newlabel{fig:scenario_exp}{{9}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Behavior of path following in scenario\relax }}{6}{}\protected@file@percent }
+\newlabel{fig:exp_path}{{10}{6}}
+\abx@aux@read@bbl@mdfivesum{0F18AEF6E71BD908DD89F6D535393E14}
 \abx@aux@defaultrefcontext{0}{haruyama2022}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{fujiwara2023}{none/global//global/global}
 \abx@aux@defaultrefcontext{0}{ros-navigation}{none/global//global/global}

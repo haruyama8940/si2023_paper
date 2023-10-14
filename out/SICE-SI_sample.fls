@@ -853,6 +853,25 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
+INPUT ./figs/camera_base.png
+INPUT ./figs/camera_base.png
+INPUT ./figs/camera_base.png
+INPUT extractbb -B cropbox -O ./figs/camera_base.png
+INPUT ./figs/abs50.png
+INPUT ./figs/abs50.png
+INPUT ./figs/abs50.png
+INPUT extractbb -B cropbox -O ./figs/abs50.png
+OUTPUT out/SICE-SI_sample.dvi
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
+INPUT ./figs/learning_gamma.png
+INPUT ./figs/learning_gamma.png
+INPUT ./figs/learning_gamma.png
+INPUT extractbb -B cropbox -O ./figs/learning_gamma.png
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
@@ -868,28 +887,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT ./figs/camera_base.png
-INPUT ./figs/camera_base.png
-INPUT ./figs/camera_base.png
-INPUT extractbb -B cropbox -O ./figs/camera_base.png
-INPUT ./figs/abs_50.png
-INPUT ./figs/abs_50.png
-INPUT ./figs/abs_50.png
-INPUT extractbb -B cropbox -O ./figs/abs_50.png
-OUTPUT out/SICE-SI_sample.dvi
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
-INPUT ./figs/learning_gamma.png
-INPUT ./figs/learning_gamma.png
-INPUT ./figs/learning_gamma.png
-INPUT extractbb -B cropbox -O ./figs/learning_gamma.png
 INPUT ./figs/LRCN_gai.png
 INPUT ./figs/LRCN_gai.png
 INPUT ./figs/LRCN_gai.png
@@ -906,6 +903,10 @@ INPUT ./figs/cit3f.png
 INPUT ./figs/cit3f.png
 INPUT ./figs/cit3f.png
 INPUT extractbb -B cropbox -O ./figs/cit3f.png
+INPUT ./figs/route.png
+INPUT ./figs/route.png
+INPUT ./figs/route.png
+INPUT extractbb -B cropbox -O ./figs/route.png
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmr-sc.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
@@ -915,18 +916,54 @@ INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT ./figs/route.png
-INPUT ./figs/route.png
-INPUT ./figs/route.png
-INPUT extractbb -B cropbox -O ./figs/route.png
+INPUT ./figs/scenario01.png
+INPUT ./figs/scenario01.png
+INPUT figs/scenario01.png
+INPUT extractbb -B cropbox -O figs/scenario01.png
+INPUT ./figs/scenario05.png
+INPUT ./figs/scenario05.png
+INPUT figs/scenario05.png
+INPUT extractbb -B cropbox -O figs/scenario05.png
+INPUT ./figs/scenario20.png
+INPUT ./figs/scenario20.png
+INPUT figs/scenario20.png
+INPUT extractbb -B cropbox -O figs/scenario20.png
+INPUT ./figs/scenario21.png
+INPUT ./figs/scenario21.png
+INPUT figs/scenario21.png
+INPUT extractbb -B cropbox -O figs/scenario21.png
+INPUT ./figs/scenario22.png
+INPUT ./figs/scenario22.png
+INPUT figs/scenario22.png
+INPUT extractbb -B cropbox -O figs/scenario22.png
 INPUT ./figs/scenario24.png
 INPUT ./figs/scenario24.png
-INPUT ./figs/scenario24.png
-INPUT extractbb -B cropbox -O ./figs/scenario24.png
-INPUT ./figs/exp_etc.png
-INPUT ./figs/exp_etc.png
-INPUT ./figs/exp_etc.png
-INPUT extractbb -B cropbox -O ./figs/exp_etc.png
+INPUT figs/scenario24.png
+INPUT extractbb -B cropbox -O figs/scenario24.png
+INPUT ./figs/scenario50.png
+INPUT ./figs/scenario50.png
+INPUT figs/scenario50.png
+INPUT extractbb -B cropbox -O figs/scenario50.png
+INPUT ./figs/exp_path_follow_0.png
+INPUT ./figs/exp_path_follow_0.png
+INPUT figs/exp_path_follow_0.png
+INPUT extractbb -B cropbox -O figs/exp_path_follow_0.png
+INPUT ./figs/exp_path_follow_1.png
+INPUT ./figs/exp_path_follow_1.png
+INPUT figs/exp_path_follow_1.png
+INPUT extractbb -B cropbox -O figs/exp_path_follow_1.png
+INPUT ./figs/exp_path_follow_2.png
+INPUT ./figs/exp_path_follow_2.png
+INPUT figs/exp_path_follow_2.png
+INPUT extractbb -B cropbox -O figs/exp_path_follow_2.png
+INPUT ./figs/exp_path_follow_4.png
+INPUT ./figs/exp_path_follow_4.png
+INPUT figs/exp_path_follow_4.png
+INPUT extractbb -B cropbox -O figs/exp_path_follow_4.png
+INPUT ./figs/exp_path_follow_5.png
+INPUT ./figs/exp_path_follow_5.png
+INPUT figs/exp_path_follow_5.png
+INPUT extractbb -B cropbox -O figs/exp_path_follow_5.png
 INPUT out/SICE-SI_sample.aux
 INPUT out/SICE-SI_sample.run.xml
 OUTPUT out/SICE-SI_sample.run.xml

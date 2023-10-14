@@ -20,24 +20,57 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global}
     \entry{haruyama2022}{article}{}
-      \name{author}{1}{}{%
-        {{hash=4558104649ade7a9f0065d83961ee943}{%
-           family={春山健太，藤原柾，清岡優祐，岡田眞也，上田隆一，林原靖男},
-           familyi={春\bibinitperiod}}}%
+      \name{author}{6}{}{%
+        {{hash=abb8645aa60642dc2f04de971c785e15}{%
+           family={健太},
+           familyi={健\bibinitperiod},
+           given={春山},
+           giveni={春\bibinitperiod}}}%
+        {{hash=e44d919a24adefe15215b42b1b40f996}{%
+           family={柾},
+           familyi={柾\bibinitperiod},
+           given={藤原},
+           giveni={藤\bibinitperiod}}}%
+        {{hash=f99123a72f1a4ed354f578ea7e3d0710}{%
+           family={優祐},
+           familyi={優\bibinitperiod},
+           given={清岡},
+           giveni={清\bibinitperiod}}}%
+        {{hash=c1d59b3de7c8d7a3ac00779961eeb305}{%
+           family={眞也},
+           familyi={眞\bibinitperiod},
+           given={岡田},
+           giveni={岡\bibinitperiod}}}%
+        {{hash=b77ffd41100b5eb3c562ccbccd7058f5}{%
+           family={隆一},
+           familyi={隆\bibinitperiod},
+           given={上田},
+           giveni={上\bibinitperiod}}}%
+        {{hash=bc0e1d9f4a0f29c1fa81d32217b37b79}{%
+           family={靖男},
+           familyi={靖\bibinitperiod},
+           given={林原},
+           giveni={林\bibinitperiod}}}%
       }
-      \strng{namehash}{4558104649ade7a9f0065d83961ee943}
-      \strng{fullhash}{4558104649ade7a9f0065d83961ee943}
-      \strng{bibnamehash}{4558104649ade7a9f0065d83961ee943}
-      \strng{authorbibnamehash}{4558104649ade7a9f0065d83961ee943}
-      \strng{authornamehash}{4558104649ade7a9f0065d83961ee943}
-      \strng{authorfullhash}{4558104649ade7a9f0065d83961ee943}
+      \strng{namehash}{1f62fb12359a531f059e883681f6c3fc}
+      \strng{fullhash}{acd5b9399337e590640a3addc39a952f}
+      \strng{bibnamehash}{1f62fb12359a531f059e883681f6c3fc}
+      \strng{authorbibnamehash}{1f62fb12359a531f059e883681f6c3fc}
+      \strng{authornamehash}{1f62fb12359a531f059e883681f6c3fc}
+      \strng{authorfullhash}{acd5b9399337e590640a3addc39a952f}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'22予稿集}
-      \field{title}{{視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案 ―経路選択機能の追加―}}
+      \field{journaltitle}{ロボティクス・メカトロニクス講演会講演概要集}
+      \field{title}{視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案}
+      \field{volume}{2022}
       \field{year}{2022}
+      \field{pages}{2P2\bibrangedash L05}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1299/jsmermd.2022.2P2-L05
+      \endverb
     \endentry
     \entry{fujiwara2023}{article}{}
       \name{author}{1}{}{%
@@ -58,6 +91,8 @@
       \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'23予稿集}
       \field{title}{{視覚と行動のend-to-end 学習により経路追従行動をオンラインで模倣する手法の提案 -実環境における経路選択機能の検証と学習時間の短縮化の検討-}}
       \field{year}{2023}
+      \field{pages}{2P2\bibrangedash G06}
+      \range{pages}{-1}
     \endentry
     \entry{ros-navigation}{misc}{}
       \name{author}{1}{}{%
@@ -106,6 +141,8 @@
       \field{journaltitle}{計測自動制御学会SI部門講演会SICE2020 予稿集}
       \field{title}{{トポロジカルマップを用いたシナリオによるナビゲーションの提案 ーシナリオに基づく実ロボットのナビゲーションー}}
       \field{year}{2020}
+      \field{pages}{1H2\bibrangedash 04}
+      \range{pages}{-1}
     \endentry
     \entry{lrcn}{inproceedings}{}
       \name{author}{5}{}{%

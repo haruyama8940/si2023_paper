@@ -122,15 +122,15 @@
 
 % 本文中の参考文献の書式
 % 参考文献表示を右肩に変更
-\let\citebrackets\mkbibparens
-\renewcommand*{\citebrackets}[1]{\textsuperscript{[#1]}}
+% \let\citebrackets\mkbibparens
+% \renewcommand*{\citebrackets}[1]{\textsuperscript{[#1]}}
 
-\DeclareCiteCommand{\cite}[\citebrackets]
-    {\usebibmacro{prenote}}
-    {\usebibmacro{citeindex}%
-    \usebibmacro{cite}}
-    {\multicitedelim}
-    {\usebibmacro{postnote}}
+% \DeclareCiteCommand{\cite}[\citebrackets]
+%     {\usebibmacro{prenote}}
+%     {\usebibmacro{citeindex}%
+%     \usebibmacro{cite}}
+%     {\multicitedelim}
+%     {\usebibmacro{postnote}}
 
 %ページ数の書式
 \pagestyle{empty}
