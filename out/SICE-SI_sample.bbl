@@ -144,6 +144,116 @@
       \field{pages}{1H2\bibrangedash 04}
       \range{pages}{-1}
     \endentry
+    \entry{shah2022lmnav}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=74580ac80c8b508ecbad3b3be4dcd8eb}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Dhruv},
+           giveni={D\bibinitperiod}}}%
+        {{hash=64834d3a91d16390d4188548afc76fc8}{%
+           family={Osinski},
+           familyi={O\bibinitperiod},
+           given={Blazej},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a096e9107f0463212211c4510c6fa470}{%
+           family={Ichter},
+           familyi={I\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c9545da54b33744da25943cdf66eadac}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d33dc5c2f373beb3cce248e9d411227c}
+      \strng{fullhash}{ab0a35ede4f320dc0f9d12cad300f73e}
+      \strng{bibnamehash}{d33dc5c2f373beb3cce248e9d411227c}
+      \strng{authorbibnamehash}{d33dc5c2f373beb3cce248e9d411227c}
+      \strng{authornamehash}{d33dc5c2f373beb3cce248e9d411227c}
+      \strng{authorfullhash}{ab0a35ede4f320dc0f9d12cad300f73e}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{6th Annual Conference on Robot Learning}
+      \field{title}{{LM}-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://openreview.net/forum?id=UW5A3SweAH
+      \endverb
+      \verb{url}
+      \verb https://openreview.net/forum?id=UW5A3SweAH
+      \endverb
+    \endentry
+    \entry{seg_meizi}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=e24db3c689a9b0b4ff3d9731e40d0887}{%
+           family={Miyamoto},
+           familyi={M\bibinitperiod},
+           given={Ryusuke},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6657eb82a1c2c0ef05f812955e654a3c}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Yuta},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7a8558cd36c20bc7cd14daf1f345011a}{%
+           family={Adachi},
+           familyi={A\bibinitperiod},
+           given={Miho},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e47ce221ec7d13026d51daf64277c4e4}{%
+           family={Nakajima},
+           familyi={N\bibinitperiod},
+           given={Takeshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=39cca9f2c37e7aef604d4db81990c0ba}{%
+           family={Ishida},
+           familyi={I\bibinitperiod},
+           given={Hiroki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f396ce52b872cfba21f97df847ebb8e2}{%
+           family={Kojima},
+           familyi={K\bibinitperiod},
+           given={Kazuya},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7107db31bb204d32d321ac63ba5959aa}{%
+           family={Aoki},
+           familyi={A\bibinitperiod},
+           given={Risako},
+           giveni={R\bibinitperiod}}}%
+        {{hash=10d4da32c0444793677a3fda326d6804}{%
+           family={Oki},
+           familyi={O\bibinitperiod},
+           given={Takuro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=080c0b955fccae54e72afb2c7633caed}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Shingo},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9067812241362b1d3fa9ea4634edc389}
+      \strng{fullhash}{d4480789f37c874cd08aee8ed124c85a}
+      \strng{bibnamehash}{9067812241362b1d3fa9ea4634edc389}
+      \strng{authorbibnamehash}{9067812241362b1d3fa9ea4634edc389}
+      \strng{authornamehash}{9067812241362b1d3fa9ea4634edc389}
+      \strng{authorfullhash}{d4480789f37c874cd08aee8ed124c85a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE 9th International Conference on Consumer Electronics (ICCE-Berlin)}
+      \field{title}{Vision-Based Road-Following Using Results of Semantic Segmentation for Autonomous Navigation}
+      \field{year}{2019}
+      \field{pages}{174\bibrangedash 179}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICCE-Berlin47944.2019.8966198
+      \endverb
+    \endentry
     \entry{lrcn}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=721996cd3ecf4be7d76c58101cf5faf3}{%
