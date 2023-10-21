@@ -62,28 +62,36 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{ロボティクス・メカトロニクス講演会講演概要集}
+      \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'23予稿集}
       \field{title}{視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案}
-      \field{volume}{2022}
       \field{year}{2022}
       \field{pages}{2P2\bibrangedash L05}
       \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1299/jsmermd.2022.2P2-L05
-      \endverb
     \endentry
     \entry{fujiwara2023}{article}{}
-      \name{author}{1}{}{%
-        {{hash=097ff774297ee0d4a3e388485b0cad72}{%
-           family={藤原柾，春山健太，馬場琉生，上田隆一，林原靖男},
+      \name{author}{5}{}{%
+        {{hash=5567455e60e99a80dc9669e378d5728d}{%
+           family={藤原柾},
            familyi={藤\bibinitperiod}}}%
+        {{hash=abecea091a018baceb306fa07563767f}{%
+           family={春山健太},
+           familyi={春\bibinitperiod}}}%
+        {{hash=8fd182f1dfc3b8193bd2d64abf7ac656}{%
+           family={馬場琉生},
+           familyi={馬\bibinitperiod}}}%
+        {{hash=d1e6d043dc50aaa4714c98264c3563d0}{%
+           family={上田隆一},
+           familyi={上\bibinitperiod}}}%
+        {{hash=53e4aaa32d6afec2286939ba10c95717}{%
+           family={林原靖男},
+           familyi={林\bibinitperiod}}}%
       }
-      \strng{namehash}{097ff774297ee0d4a3e388485b0cad72}
-      \strng{fullhash}{097ff774297ee0d4a3e388485b0cad72}
-      \strng{bibnamehash}{097ff774297ee0d4a3e388485b0cad72}
-      \strng{authorbibnamehash}{097ff774297ee0d4a3e388485b0cad72}
-      \strng{authornamehash}{097ff774297ee0d4a3e388485b0cad72}
-      \strng{authorfullhash}{097ff774297ee0d4a3e388485b0cad72}
+      \strng{namehash}{bd3df1c7c40246ed4fa84d53959308b8}
+      \strng{fullhash}{1699ebb73e5f14cd2ffb6ccfbf29d74f}
+      \strng{bibnamehash}{bd3df1c7c40246ed4fa84d53959308b8}
+      \strng{authorbibnamehash}{bd3df1c7c40246ed4fa84d53959308b8}
+      \strng{authornamehash}{bd3df1c7c40246ed4fa84d53959308b8}
+      \strng{authorfullhash}{1699ebb73e5f14cd2ffb6ccfbf29d74f}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -93,31 +101,6 @@
       \field{year}{2023}
       \field{pages}{2P2\bibrangedash G06}
       \range{pages}{-1}
-    \endentry
-    \entry{ros-navigation}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=469e4d6ecb1c1bd2cbc54c33f81f6771}{%
-           family={{ROS Navigation Stack}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
-      \strng{fullhash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
-      \strng{bibnamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
-      \strng{authorbibnamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
-      \strng{authornamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
-      \strng{authorfullhash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed on 25.10.2023}
-      \field{title}{ROS Navigation Stack}
-      \verb{urlraw}
-      \verb https://github.com/ros-planning/navigation
-      \endverb
-      \verb{url}
-      \verb https://github.com/ros-planning/navigation
-      \endverb
     \endentry
     \entry{shimada2020}{article}{}
       \name{author}{1}{}{%
@@ -134,8 +117,8 @@
       \strng{authorbibnamehash}{480712cc7e82bf9131de3c5c849ba69f}
       \strng{authornamehash}{480712cc7e82bf9131de3c5c849ba69f}
       \strng{authorfullhash}{480712cc7e82bf9131de3c5c849ba69f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{計測自動制御学会SI部門講演会SICE2020 予稿集}
@@ -173,8 +156,8 @@
       \strng{authorbibnamehash}{d33dc5c2f373beb3cce248e9d411227c}
       \strng{authornamehash}{d33dc5c2f373beb3cce248e9d411227c}
       \strng{authorfullhash}{ab0a35ede4f320dc0f9d12cad300f73e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{6th Annual Conference on Robot Learning}
@@ -241,8 +224,8 @@
       \strng{authorbibnamehash}{9067812241362b1d3fa9ea4634edc389}
       \strng{authornamehash}{9067812241362b1d3fa9ea4634edc389}
       \strng{authorfullhash}{d4480789f37c874cd08aee8ed124c85a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 IEEE 9th International Conference on Consumer Electronics (ICCE-Berlin)}
@@ -252,6 +235,31 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1109/ICCE-Berlin47944.2019.8966198
+      \endverb
+    \endentry
+    \entry{ros-navigation}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=469e4d6ecb1c1bd2cbc54c33f81f6771}{%
+           family={{ROS Navigation Stack}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{fullhash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{bibnamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{authorbibnamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{authornamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \strng{authorfullhash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed on 25.10.2023}
+      \field{title}{ROS Navigation Stack}
+      \verb{urlraw}
+      \verb https://github.com/ros-planning/navigation
+      \endverb
+      \verb{url}
+      \verb https://github.com/ros-planning/navigation
       \endverb
     \endentry
     \entry{lrcn}{inproceedings}{}

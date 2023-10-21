@@ -138,10 +138,10 @@
 % figとtableの余白の調整
 \setlength{\intextsep}{1pt}
 % \setlength{intextsep}{0pt}
-% \setlength{\textfloatsep}{1pt}
+\setlength{\textfloatsep}{1pt}
 % キャプションとサブキャプションの設定、fontは10pt
-\captionsetup[figure]{labelsep=space, name=Fig., font=normalsize}
-\captionsetup[subfigure]{labelsep=space, labelformat=simple, name=Fig., font=normalsize}
+\captionsetup[figure]{labelsep=space, name=Fig., font=normalsize, justification=centering}
+\captionsetup[subfigure]{labelsep=space, labelformat=simple, name=Fig., font=normalsize, justification=centering}
 \renewcommand*{\thesubfigure}{(\alph{subfigure})}
 \captionsetup[table]{labelsep=space, name=Table\ , font=normalsize}
 

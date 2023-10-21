@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'out/SICE-SI_sample.blg'
-[59] biber:340> INFO - === 木 10月 19, 2023, 00:51:39
-[70] Biber.pm:418> INFO - Reading 'out/SICE-SI_sample.bcf'
-[123] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
-[133] Biber.pm:4383> INFO - Processing section 0
-[142] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
-[143] bibtex.pm:1713> INFO - LaTeX decoding ...
-[156] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
-[252] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[252] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[252] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[252] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[260] bbl.pm:654> INFO - Writing 'out/SICE-SI_sample.bbl' with encoding 'UTF-8'
-[260] bbl.pm:655> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[273] bbl.pm:757> INFO - Output to out/SICE-SI_sample.bbl
-[273] Biber.pm:130> WARN - legacy month field 'aug' in entry 'hukin' is not an integer - this will probably not sort properly.
-[273] Biber.pm:132> INFO - WARNINGS: 1
+[64] biber:340> INFO - === 土 10月 21, 2023, 15:59:53
+[76] Biber.pm:418> INFO - Reading 'out/SICE-SI_sample.bcf'
+[133] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[143] Biber.pm:4383> INFO - Processing section 0
+[151] Biber.pm:4574> INFO - Looking for bibtex file 'references.bib' for section 0
+[152] bibtex.pm:1713> INFO - LaTeX decoding ...
+[165] bibtex.pm:1518> INFO - Found BibTeX data source 'references.bib'
+[271] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[271] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[271] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[271] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[279] bbl.pm:654> INFO - Writing 'out/SICE-SI_sample.bbl' with encoding 'UTF-8'
+[279] bbl.pm:655> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[292] bbl.pm:757> INFO - Output to out/SICE-SI_sample.bbl
+[293] Biber.pm:130> WARN - legacy month field 'aug' in entry 'hukin' is not an integer - this will probably not sort properly.
+[293] Biber.pm:132> INFO - WARNINGS: 1
