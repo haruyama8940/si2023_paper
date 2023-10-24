@@ -853,14 +853,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreqg.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qtmb.tfm
-INPUT ./figs/learninggamma.png
-INPUT ./figs/learninggamma.png
-INPUT ./figs/learninggamma.png
-INPUT extractbb -B cropbox -O ./figs/learninggamma.png
-INPUT ./figs/absv3.png
-INPUT ./figs/absv3.png
-INPUT ./figs/absv3.png
-INPUT extractbb -B cropbox -O ./figs/absv3.png
+INPUT ./figs/camera_base.pdf
+INPUT ./figs/camera_base.pdf
+INPUT ./figs/camera_base.pdf
+INPUT extractbb -B cropbox -O ./figs/camera_base.pdf
+INPUT ./figs/absv3.pdf
+INPUT ./figs/absv3.pdf
+INPUT ./figs/absv3.pdf
+INPUT extractbb -B cropbox -O ./figs/absv3.pdf
 OUTPUT out/SICE-SI_sample.dvi
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq-v.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/jlreq/jlreq.tfm
@@ -891,10 +891,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT ./figs/corridor_cross.pdf
-INPUT ./figs/corridor_cross.pdf
-INPUT ./figs/corridor_cross.pdf
-INPUT extractbb -B cropbox -O ./figs/corridor_cross.pdf
+INPUT ./figs/corridor_class.pdf
+INPUT ./figs/corridor_class.pdf
+INPUT ./figs/corridor_class.pdf
+INPUT extractbb -B cropbox -O ./figs/corridor_class.pdf
 INPUT ./figs/corridor.pdf
 INPUT ./figs/corridor.pdf
 INPUT ./figs/corridor.pdf

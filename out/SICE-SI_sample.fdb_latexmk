@@ -1,17 +1,17 @@
 # Fdb version 3
-["biber out/SICE-SI_sample"] 1697871593 "out/SICE-SI_sample.bcf" "out/SICE-SI_sample.bbl" "out/SICE-SI_sample" 1697880296
-  "out/SICE-SI_sample.bcf" 1697880283 107434 03d44445c20853fd6c4934757d3d92ba "latex"
-  "references.bib" 1697870307 7385 90886638b317eeee3f3912ef3cf02e7f ""
+["biber out/SICE-SI_sample"] 1698110074 "out/SICE-SI_sample.bcf" "out/SICE-SI_sample.bbl" "out/SICE-SI_sample" 1698148000
+  "out/SICE-SI_sample.bcf" 1698147989 107214 b7bf2e9a8123a495d51cc6ab8fb42a80 "latex"
+  "references.bib" 1697931564 7385 dbba9926474dcfefa4b4ce2d4545d138 ""
   (generated)
   "out/SICE-SI_sample.bbl"
   "out/SICE-SI_sample.blg"
-["dvipdf"] 1697880283 "out/SICE-SI_sample.dvi" "out/SICE-SI_sample.pdf" "out/SICE-SI_sample" 1697880296
-  "out/SICE-SI_sample.dvi" 1697880283 35596 6889ba383645087362440b15d04c2828 "latex"
+["dvipdf"] 1698147990 "out/SICE-SI_sample.dvi" "out/SICE-SI_sample.pdf" "out/SICE-SI_sample" 1698148000
+  "out/SICE-SI_sample.dvi" 1698147989 36404 5c73967774f2af0c05b7caf90d96485c "latex"
   (generated)
   "out/SICE-SI_sample.pdf"
-["latex"] 1697880279 "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" "out/SICE-SI_sample.dvi" "SICE-SI_sample" 1697880296
+["latex"] 1698147986 "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" "out/SICE-SI_sample.dvi" "SICE-SI_sample" 1698148000
   "/etc/texmf/web2c/texmf.cnf" 1689599941 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" 1697880279 32035 497e372089023096ce125eaceabd3263 ""
+  "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" 1698147597 33754 ee28f10da3d4b45b0dfe5e1fb52c89d9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -136,11 +136,12 @@
   "/usr/share/texmf/tex/latex/tex-gyre/ts1qtm.fd" 1480098840 1160 de7b1cf70edab73c9f1704df2a9fdbbd ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/eptex/platex.fmt" 1689600107 2754647 628ca8f98b97bd4be978e2ce7dd865c1 ""
-  "SICE-SI_sample.tex" 1697880279 32035 497e372089023096ce125eaceabd3263 ""
-  "figs/absv3.png" 1697818963 2284786 496ecd2cd64d99f5086ae2361183c8ff ""
+  "SICE-SI_sample.tex" 1698147597 33754 ee28f10da3d4b45b0dfe5e1fb52c89d9 ""
+  "figs/absv3.pdf" 1698111026 336408 f2f4d7e1369250d8fa54d4655b6acf65 ""
+  "figs/camera_base.pdf" 1698064709 387125 35437e374fc0e4d08d460111751a9af5 ""
   "figs/cit3f.pdf" 1697800403 89327 555cf92c8039d9855a1ff4dac66e6afb ""
   "figs/corridor.pdf" 1697542894 25207 7aef5076f8d3f1fd1aeb0107a7ab17fb ""
-  "figs/corridor_cross.pdf" 1697801603 559241 eedf4e914dd3067a386ad0205f7937f6 ""
+  "figs/corridor_class.pdf" 1698109066 558930 e0f99b9ff61df5d706fd84452a41f2aa ""
   "figs/exp_path_follow_0.png" 1696960599 737475 97f7e2687a562c14d451009edf9c91b3 ""
   "figs/exp_path_follow_1.png" 1696960600 881103 1a6cece2a03482c9d6eadcddb8cd4889 ""
   "figs/exp_path_follow_2.png" 1696960602 1141419 88cff1aa9e5f82a90fe22637fc0f21b0 ""
@@ -149,8 +150,7 @@
   "figs/exp_path_follow_6.png" 1697565846 630475 68bca145aad44da3a3900dac051e296b ""
   "figs/exp_path_follow_7.png" 1696960612 870618 a06b9ce2d2317e157ac2d1ae1c2f0ee4 ""
   "figs/gamma_sensor.png" 1696472584 2103273 062dab72172261073034629c146c79be ""
-  "figs/learninggamma.png" 1697800831 745438 a288e680fa4cafe24cc65ad57c1ebd98 ""
-  "figs/map_label.pdf" 1697631096 543463 461f50655bdc3ad422c1fd6578a1ee3b ""
+  "figs/map_label.pdf" 1698136864 543916 384fc74a4e976947e711f8cb47785ccc ""
   "figs/newroute.pdf" 1697546788 146020 cfa145103a13c6af61c96bc7a4b90eca ""
   "figs/scenario/scenario01.pdf" 1697875996 35852 821084e577aacdfce3423c3a8e7cb732 ""
   "figs/scenario/scenario02.pdf" 1697876020 43322 a664043d2673eba79fbcc9a7be620dc5 ""
@@ -161,10 +161,10 @@
   "figs/scenario/scenario07.pdf" 1697876065 43301 3f21a7b8c52c5696e0c14e8599569bf2 ""
   "figs/system_learning.pdf" 1697802227 300741 0fb068d540ed2241844c20fce6ec5c48 ""
   "figs/topo2sce.pdf" 1697876320 66561 184b6bebba201e0d2557a1f80ca1781e ""
-  "out/SICE-SI_sample.aux" 1697880283 5948 09a1724d4c06d66e6f886a22c730fe5f "latex"
-  "out/SICE-SI_sample.bbl" 1697871593 20580 e90ab882f8e47bdadbb5b0c4785b1c16 "biber out/SICE-SI_sample"
-  "out/SICE-SI_sample.run.xml" 1697880283 2375 b2cf1425e16c1dbd6ef1839d5dd0ef61 "latex"
-  "sice-si.cls" 1697877123 7849 de5219804ea40644255dced6fb4f2f00 ""
+  "out/SICE-SI_sample.aux" 1698147989 5681 31c1801c4178b2265b71b270b8a17141 "latex"
+  "out/SICE-SI_sample.bbl" 1698110075 20580 77afd0f49d029d48af21008a4f241947 "biber out/SICE-SI_sample"
+  "out/SICE-SI_sample.run.xml" 1698147989 2375 b2cf1425e16c1dbd6ef1839d5dd0ef61 "latex"
+  "sice-si.cls" 1698147985 7849 df87aee681ccaa870a2efb2f716241e3 ""
   (generated)
   "out/SICE-SI_sample.aux"
   "out/SICE-SI_sample.bcf"

@@ -136,9 +136,9 @@
 \pagestyle{empty}
 
 % figとtableの余白の調整
-\setlength{\intextsep}{1pt}
+\setlength{\intextsep}{4pt}
 % \setlength{intextsep}{0pt}
-\setlength{\textfloatsep}{1pt}
+\setlength{\textfloatsep}{2pt}
 % キャプションとサブキャプションの設定、fontは10pt
 \captionsetup[figure]{labelsep=space, name=Fig., font=normalsize, justification=centering}
 \captionsetup[subfigure]{labelsep=space, labelformat=simple, name=Fig., font=normalsize, justification=centering}
