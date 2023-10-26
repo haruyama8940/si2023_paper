@@ -136,7 +136,7 @@
 \pagestyle{empty}
 
 % figとtableの余白の調整
-\setlength{\intextsep}{4pt}
+\setlength{\intextsep}{3.5pt}
 % \setlength{intextsep}{0pt}
 \setlength{\textfloatsep}{2pt}
 % キャプションとサブキャプションの設定、fontは10pt

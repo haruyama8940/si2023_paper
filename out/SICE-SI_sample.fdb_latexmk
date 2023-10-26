@@ -1,17 +1,17 @@
 # Fdb version 3
-["biber out/SICE-SI_sample"] 1698110074 "out/SICE-SI_sample.bcf" "out/SICE-SI_sample.bbl" "out/SICE-SI_sample" 1698148000
-  "out/SICE-SI_sample.bcf" 1698147989 107214 b7bf2e9a8123a495d51cc6ab8fb42a80 "latex"
-  "references.bib" 1697931564 7385 dbba9926474dcfefa4b4ce2d4545d138 ""
+["biber out/SICE-SI_sample"] 1698238151 "out/SICE-SI_sample.bcf" "out/SICE-SI_sample.bbl" "out/SICE-SI_sample" 1698250007
+  "out/SICE-SI_sample.bcf" 1698250006 107324 7e87bd4ceda6781ef7c4fbca489893d0 "latex"
+  "references.bib" 1698162531 7486 e6fd7359f9a75bc496399e3f3331c23f ""
   (generated)
   "out/SICE-SI_sample.bbl"
   "out/SICE-SI_sample.blg"
-["dvipdf"] 1698147990 "out/SICE-SI_sample.dvi" "out/SICE-SI_sample.pdf" "out/SICE-SI_sample" 1698148000
-  "out/SICE-SI_sample.dvi" 1698147989 36404 5c73967774f2af0c05b7caf90d96485c "latex"
+["dvipdf"] 1698250006 "out/SICE-SI_sample.dvi" "out/SICE-SI_sample.pdf" "out/SICE-SI_sample" 1698250007
+  "out/SICE-SI_sample.dvi" 1698250006 35908 f6596dc0d803a46f7935126e1cccdfbd "latex"
   (generated)
   "out/SICE-SI_sample.pdf"
-["latex"] 1698147986 "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" "out/SICE-SI_sample.dvi" "SICE-SI_sample" 1698148000
+["latex"] 1698250003 "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" "out/SICE-SI_sample.dvi" "SICE-SI_sample" 1698250007
   "/etc/texmf/web2c/texmf.cnf" 1689599941 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" 1698147597 33754 ee28f10da3d4b45b0dfe5e1fb52c89d9 ""
+  "/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex" 1698250002 31276 675c3d39017065f71cc31d63e38fb0de ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -136,8 +136,8 @@
   "/usr/share/texmf/tex/latex/tex-gyre/ts1qtm.fd" 1480098840 1160 de7b1cf70edab73c9f1704df2a9fdbbd ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/eptex/platex.fmt" 1689600107 2754647 628ca8f98b97bd4be978e2ce7dd865c1 ""
-  "SICE-SI_sample.tex" 1698147597 33754 ee28f10da3d4b45b0dfe5e1fb52c89d9 ""
-  "figs/absv3.pdf" 1698111026 336408 f2f4d7e1369250d8fa54d4655b6acf65 ""
+  "SICE-SI_sample.tex" 1698250002 31276 675c3d39017065f71cc31d63e38fb0de ""
+  "figs/absv3.pdf" 1698221432 276829 8e14bb54882b0a1dda44bef10089b6dc ""
   "figs/camera_base.pdf" 1698064709 387125 35437e374fc0e4d08d460111751a9af5 ""
   "figs/cit3f.pdf" 1697800403 89327 555cf92c8039d9855a1ff4dac66e6afb ""
   "figs/corridor.pdf" 1697542894 25207 7aef5076f8d3f1fd1aeb0107a7ab17fb ""
@@ -151,7 +151,7 @@
   "figs/exp_path_follow_7.png" 1696960612 870618 a06b9ce2d2317e157ac2d1ae1c2f0ee4 ""
   "figs/gamma_sensor.png" 1696472584 2103273 062dab72172261073034629c146c79be ""
   "figs/map_label.pdf" 1698136864 543916 384fc74a4e976947e711f8cb47785ccc ""
-  "figs/newroute.pdf" 1697546788 146020 cfa145103a13c6af61c96bc7a4b90eca ""
+  "figs/newroute.pdf" 1698165136 145840 6d5148d25925c289ebfb55c5b9ad1e06 ""
   "figs/scenario/scenario01.pdf" 1697875996 35852 821084e577aacdfce3423c3a8e7cb732 ""
   "figs/scenario/scenario02.pdf" 1697876020 43322 a664043d2673eba79fbcc9a7be620dc5 ""
   "figs/scenario/scenario03.pdf" 1697876031 42159 c2cc1b2b6117484f422d3d8ff23e5ef4 ""
@@ -161,10 +161,10 @@
   "figs/scenario/scenario07.pdf" 1697876065 43301 3f21a7b8c52c5696e0c14e8599569bf2 ""
   "figs/system_learning.pdf" 1697802227 300741 0fb068d540ed2241844c20fce6ec5c48 ""
   "figs/topo2sce.pdf" 1697876320 66561 184b6bebba201e0d2557a1f80ca1781e ""
-  "out/SICE-SI_sample.aux" 1698147989 5681 31c1801c4178b2265b71b270b8a17141 "latex"
-  "out/SICE-SI_sample.bbl" 1698110075 20580 77afd0f49d029d48af21008a4f241947 "biber out/SICE-SI_sample"
-  "out/SICE-SI_sample.run.xml" 1698147989 2375 b2cf1425e16c1dbd6ef1839d5dd0ef61 "latex"
-  "sice-si.cls" 1698147985 7849 df87aee681ccaa870a2efb2f716241e3 ""
+  "out/SICE-SI_sample.aux" 1698250006 5811 ad3fc4212f14121368beca076d88abe8 "latex"
+  "out/SICE-SI_sample.bbl" 1698238152 17990 6f9e5de3562cd0c922af34e3fb988a65 "biber out/SICE-SI_sample"
+  "out/SICE-SI_sample.run.xml" 1698250006 2375 b2cf1425e16c1dbd6ef1839d5dd0ef61 "latex"
+  "sice-si.cls" 1698163622 7851 e4cef4e5fa942fd118cc882ff9d854ab ""
   (generated)
   "out/SICE-SI_sample.aux"
   "out/SICE-SI_sample.bcf"

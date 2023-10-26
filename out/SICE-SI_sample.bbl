@@ -21,49 +21,37 @@
   \datalist[entry]{none/global//global/global}
     \entry{haruyama2022}{article}{}
       \name{author}{6}{}{%
-        {{hash=abb8645aa60642dc2f04de971c785e15}{%
-           family={健太},
-           familyi={健\bibinitperiod},
-           given={春山},
-           giveni={春\bibinitperiod}}}%
-        {{hash=e44d919a24adefe15215b42b1b40f996}{%
-           family={柾},
-           familyi={柾\bibinitperiod},
-           given={藤原},
-           giveni={藤\bibinitperiod}}}%
-        {{hash=f99123a72f1a4ed354f578ea7e3d0710}{%
-           family={優祐},
-           familyi={優\bibinitperiod},
-           given={清岡},
-           giveni={清\bibinitperiod}}}%
-        {{hash=c1d59b3de7c8d7a3ac00779961eeb305}{%
-           family={眞也},
-           familyi={眞\bibinitperiod},
-           given={岡田},
-           giveni={岡\bibinitperiod}}}%
-        {{hash=b77ffd41100b5eb3c562ccbccd7058f5}{%
-           family={隆一},
-           familyi={隆\bibinitperiod},
-           given={上田},
-           giveni={上\bibinitperiod}}}%
-        {{hash=bc0e1d9f4a0f29c1fa81d32217b37b79}{%
-           family={靖男},
-           familyi={靖\bibinitperiod},
-           given={林原},
-           giveni={林\bibinitperiod}}}%
+        {{hash=abecea091a018baceb306fa07563767f}{%
+           family={春山健太},
+           familyi={春\bibinitperiod}}}%
+        {{hash=5567455e60e99a80dc9669e378d5728d}{%
+           family={藤原柾},
+           familyi={藤\bibinitperiod}}}%
+        {{hash=9ea4f5b50b85a98afcf1d55bdb33fc85}{%
+           family={清岡優祐},
+           familyi={清\bibinitperiod}}}%
+        {{hash=4f38aa6a9d3b921fc2f7beb8625fd5b0}{%
+           family={岡田眞也},
+           familyi={岡\bibinitperiod}}}%
+        {{hash=d1e6d043dc50aaa4714c98264c3563d0}{%
+           family={上田隆一},
+           familyi={上\bibinitperiod}}}%
+        {{hash=53e4aaa32d6afec2286939ba10c95717}{%
+           family={林原靖男},
+           familyi={林\bibinitperiod}}}%
       }
-      \strng{namehash}{1f62fb12359a531f059e883681f6c3fc}
-      \strng{fullhash}{acd5b9399337e590640a3addc39a952f}
-      \strng{bibnamehash}{1f62fb12359a531f059e883681f6c3fc}
-      \strng{authorbibnamehash}{1f62fb12359a531f059e883681f6c3fc}
-      \strng{authornamehash}{1f62fb12359a531f059e883681f6c3fc}
-      \strng{authorfullhash}{acd5b9399337e590640a3addc39a952f}
+      \strng{namehash}{4ed7296bcf7a2bd4831df8d49eef6ccf}
+      \strng{fullhash}{f457a83544ea74b49a1423e6e927d21d}
+      \strng{bibnamehash}{4ed7296bcf7a2bd4831df8d49eef6ccf}
+      \strng{authorbibnamehash}{4ed7296bcf7a2bd4831df8d49eef6ccf}
+      \strng{authornamehash}{4ed7296bcf7a2bd4831df8d49eef6ccf}
+      \strng{authorfullhash}{f457a83544ea74b49a1423e6e927d21d}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'22予稿集}
-      \field{title}{視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案}
+      \field{title}{視覚と行動のend-to-end学習により経路追従行動をオンラインで模倣する手法の提案 ー経路選択機能の追加ー}
       \field{year}{2022}
       \field{pages}{2P2\bibrangedash L05}
       \range{pages}{-1}
@@ -97,28 +85,32 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{日本機械学会ロボティクス・メカトロニクス講演会'23予稿集}
-      \field{title}{{視覚と行動のend-to-end 学習により経路追従行動をオンラインで模倣する手法の提案 -実環境における経路選択機能の検証と学習時間の短縮化の検討-}}
+      \field{title}{{視覚と行動のend-to-end 学習により経路追従行動をオンラインで模倣する手法の提案 ー実環境における経路選択機能の検証と学習時間の短縮化の検討ー}}
       \field{year}{2023}
       \field{pages}{2P2\bibrangedash G06}
       \range{pages}{-1}
     \endentry
     \entry{shimada2020}{article}{}
       \name{author}{1}{}{%
-        {{hash=480712cc7e82bf9131de3c5c849ba69f}{%
-           family={島田滉己，上田隆一，林原靖男},
-           familyi={島\bibinitperiod}}}%
+        {{hash=ad5e2267343315abfbc68ff99df53092}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={島田滉己},
+           giveni={島\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {計測自動制御学会}%
       }
-      \strng{namehash}{480712cc7e82bf9131de3c5c849ba69f}
-      \strng{fullhash}{480712cc7e82bf9131de3c5c849ba69f}
-      \strng{bibnamehash}{480712cc7e82bf9131de3c5c849ba69f}
-      \strng{authorbibnamehash}{480712cc7e82bf9131de3c5c849ba69f}
-      \strng{authornamehash}{480712cc7e82bf9131de3c5c849ba69f}
-      \strng{authorfullhash}{480712cc7e82bf9131de3c5c849ba69f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{ad5e2267343315abfbc68ff99df53092}
+      \strng{fullhash}{ad5e2267343315abfbc68ff99df53092}
+      \strng{bibnamehash}{ad5e2267343315abfbc68ff99df53092}
+      \strng{authorbibnamehash}{ad5e2267343315abfbc68ff99df53092}
+      \strng{authornamehash}{ad5e2267343315abfbc68ff99df53092}
+      \strng{authorfullhash}{ad5e2267343315abfbc68ff99df53092}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{計測自動制御学会SI部門講演会SICE2020 予稿集}
@@ -156,76 +148,30 @@
       \strng{authorbibnamehash}{d33dc5c2f373beb3cce248e9d411227c}
       \strng{authornamehash}{d33dc5c2f373beb3cce248e9d411227c}
       \strng{authorfullhash}{ab0a35ede4f320dc0f9d12cad300f73e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{6th Annual Conference on Robot Learning}
-      \field{title}{{LM}-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action}
+      \field{title}{{LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action}}
       \field{year}{2022}
-      \verb{urlraw}
-      \verb https://openreview.net/forum?id=UW5A3SweAH
-      \endverb
-      \verb{url}
-      \verb https://openreview.net/forum?id=UW5A3SweAH
-      \endverb
     \endentry
     \entry{seg_meizi}{inproceedings}{}
-      \name{author}{9}{}{%
-        {{hash=e24db3c689a9b0b4ff3d9731e40d0887}{%
-           family={Miyamoto},
-           familyi={M\bibinitperiod},
+      \name{author}{1}{}{%
+        {{hash=ff17066a85993be367e8f7f0b3dc3d47}{%
+           family={Miyamoto\bibnamedelimb et\bibnamedelima al.},
+           familyi={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
            given={Ryusuke},
            giveni={R\bibinitperiod}}}%
-        {{hash=6657eb82a1c2c0ef05f812955e654a3c}{%
-           family={Nakamura},
-           familyi={N\bibinitperiod},
-           given={Yuta},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=7a8558cd36c20bc7cd14daf1f345011a}{%
-           family={Adachi},
-           familyi={A\bibinitperiod},
-           given={Miho},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e47ce221ec7d13026d51daf64277c4e4}{%
-           family={Nakajima},
-           familyi={N\bibinitperiod},
-           given={Takeshi},
-           giveni={T\bibinitperiod}}}%
-        {{hash=39cca9f2c37e7aef604d4db81990c0ba}{%
-           family={Ishida},
-           familyi={I\bibinitperiod},
-           given={Hiroki},
-           giveni={H\bibinitperiod}}}%
-        {{hash=f396ce52b872cfba21f97df847ebb8e2}{%
-           family={Kojima},
-           familyi={K\bibinitperiod},
-           given={Kazuya},
-           giveni={K\bibinitperiod}}}%
-        {{hash=7107db31bb204d32d321ac63ba5959aa}{%
-           family={Aoki},
-           familyi={A\bibinitperiod},
-           given={Risako},
-           giveni={R\bibinitperiod}}}%
-        {{hash=10d4da32c0444793677a3fda326d6804}{%
-           family={Oki},
-           familyi={O\bibinitperiod},
-           given={Takuro},
-           giveni={T\bibinitperiod}}}%
-        {{hash=080c0b955fccae54e72afb2c7633caed}{%
-           family={Kobayashi},
-           familyi={K\bibinitperiod},
-           given={Shingo},
-           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{9067812241362b1d3fa9ea4634edc389}
-      \strng{fullhash}{d4480789f37c874cd08aee8ed124c85a}
-      \strng{bibnamehash}{9067812241362b1d3fa9ea4634edc389}
-      \strng{authorbibnamehash}{9067812241362b1d3fa9ea4634edc389}
-      \strng{authornamehash}{9067812241362b1d3fa9ea4634edc389}
-      \strng{authorfullhash}{d4480789f37c874cd08aee8ed124c85a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{ff17066a85993be367e8f7f0b3dc3d47}
+      \strng{fullhash}{ff17066a85993be367e8f7f0b3dc3d47}
+      \strng{bibnamehash}{ff17066a85993be367e8f7f0b3dc3d47}
+      \strng{authorbibnamehash}{ff17066a85993be367e8f7f0b3dc3d47}
+      \strng{authornamehash}{ff17066a85993be367e8f7f0b3dc3d47}
+      \strng{authorfullhash}{ff17066a85993be367e8f7f0b3dc3d47}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 IEEE 9th International Conference on Consumer Electronics (ICCE-Berlin)}
@@ -233,9 +179,6 @@
       \field{year}{2019}
       \field{pages}{174\bibrangedash 179}
       \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ICCE-Berlin47944.2019.8966198
-      \endverb
     \endentry
     \entry{ros-navigation}{misc}{}
       \name{author}{1}{}{%
@@ -249,8 +192,8 @@
       \strng{authorbibnamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
       \strng{authornamehash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
       \strng{authorfullhash}{469e4d6ecb1c1bd2cbc54c33f81f6771}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed on 25.10.2023}
@@ -296,8 +239,8 @@
       \strng{authorbibnamehash}{02d5106f2f79b6721dffe66ebfbfd33b}
       \strng{authornamehash}{02d5106f2f79b6721dffe66ebfbfd33b}
       \strng{authorfullhash}{a4025a46a94c6f8b769efc7c235b1640}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
@@ -305,9 +248,6 @@
       \field{year}{2017}
       \field{pages}{4495\bibrangedash 4500}
       \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/IROS.2017.8206317
-      \endverb
     \endentry
     \entry{v3}{misc}{}
       \name{author}{12}{}{%
@@ -391,22 +331,12 @@
       \endverb
     \endentry
     \entry{hukin}{article}{}
-      \name{author}{3}{}{%
-        {{hash=ca4f362f2ec413424f58da9b3e07fc14}{%
-           family={Kaur},
-           familyi={K\bibinitperiod},
+      \name{author}{1}{}{%
+        {{hash=d694580c6a1e18645ce84ecec44200ec}{%
+           family={Kaur\bibnamedelimb et\bibnamedelima al.},
+           familyi={K\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod},
            given={Harsurinder},
            giveni={H\bibinitperiod}}}%
-        {{hash=d3c778d6cd7e91913849654803fa9cc9}{%
-           family={Pannu},
-           familyi={P\bibinitperiod},
-           given={Husanbir\bibnamedelima Singh},
-           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=acaed90cd082643c392a1d7afc351e54}{%
-           family={Malhi},
-           familyi={M\bibinitperiod},
-           given={Avleen\bibnamedelima Kaur},
-           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {New York, NY, USA}%
@@ -414,12 +344,12 @@
       \list{publisher}{1}{%
         {Association for Computing Machinery}%
       }
-      \strng{namehash}{81b35181bc8d611d90eadaafea15806a}
-      \strng{fullhash}{81b35181bc8d611d90eadaafea15806a}
-      \strng{bibnamehash}{81b35181bc8d611d90eadaafea15806a}
-      \strng{authorbibnamehash}{81b35181bc8d611d90eadaafea15806a}
-      \strng{authornamehash}{81b35181bc8d611d90eadaafea15806a}
-      \strng{authorfullhash}{81b35181bc8d611d90eadaafea15806a}
+      \strng{namehash}{d694580c6a1e18645ce84ecec44200ec}
+      \strng{fullhash}{d694580c6a1e18645ce84ecec44200ec}
+      \strng{bibnamehash}{d694580c6a1e18645ce84ecec44200ec}
+      \strng{authorbibnamehash}{d694580c6a1e18645ce84ecec44200ec}
+      \strng{authornamehash}{d694580c6a1e18645ce84ecec44200ec}
+      \strng{authorfullhash}{d694580c6a1e18645ce84ecec44200ec}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -432,15 +362,6 @@
       \field{title}{A Systematic Review on Imbalanced Data Challenges in Machine Learning: Applications and Solutions}
       \field{volume}{52}
       \field{year}{2019}
-      \verb{doi}
-      \verb 10.1145/3343440
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/3343440
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/3343440
-      \endverb
       \keyw{data analysis,machine learning,Data imbalance,sampling}
     \endentry
     \entry{cost}{inproceedings}{}
@@ -491,9 +412,6 @@
       \field{year}{2021}
       \field{pages}{77\bibrangedash 82}
       \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ICITES53477.2021.9637101
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

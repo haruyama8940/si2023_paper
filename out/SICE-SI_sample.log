@@ -1,7 +1,6 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.7.17)  24 OCT 2023 20:46
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.7.17)  26 OCT 2023 01:06
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex
 (/home/haru/owari_SI/si2023_paper/SICE-SI_sample.tex
@@ -718,13 +717,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 32.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 28.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 32.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 28.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -740,17 +739,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.0pt on input line 171.
+(Font)              scaled to size 11.0pt on input line 158.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.0pt on input line 171.
+(Font)              scaled to size 11.0pt on input line 158.
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <11> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 171.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.0pt on input line 171.
+(Font)              scaled to size 11.0pt on input line 158.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <11> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 171.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 158.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.0pt on input line 171.
+(Font)              scaled to size 11.0pt on input line 158.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -764,143 +763,155 @@ File: ./figs/topo2sce.pdf Graphic file (type pdf)
 <./figs/topo2sce.pdf>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `h') on input line 263.
+               Default added (so using `h') on input line 251.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 266.
+(Font)              <10> on input line 254.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 266.
+(Font)              <7> on input line 254.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 266.
+(Font)              <5> on input line 254.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ./figs/corridor_class.pdf Graphic file (type pdf)
 <./figs/corridor_class.pdf>
+
+Overfull \hbox (3.6764pt too wide) in paragraph at lines 284--285
+ [][] 
+ []
+
 File: ./figs/corridor.pdf Graphic file (type pdf)
 <./figs/corridor.pdf>
 File: ./figs/map_label.pdf Graphic file (type pdf)
 <./figs/map_label.pdf>
+File: ./figs/gamma_sensor.png Graphic file (type bmp)
+<./figs/gamma_sensor.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [3]
-File: ./figs/gamma_sensor.png Graphic file (type bmp)
-<./figs/gamma_sensor.png>
 File: ./figs/cit3f.pdf Graphic file (type pdf)
 <./figs/cit3f.pdf>
+
+Overfull \hbox (18.75449pt too wide) in paragraph at lines 367--368
+ [][] 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 450.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 399.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
+(Font)              scaled to size 10.0pt on input line 399.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 450.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 399.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
+(Font)              scaled to size 10.0pt on input line 399.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
+(Font)              scaled to size 10.0pt on input line 399.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
+(Font)              scaled to size 10.0pt on input line 399.
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 450.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 399.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
+(Font)              scaled to size 10.0pt on input line 399.
 LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 450.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 399.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
-LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <10> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 450.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
-LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <10> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 450.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 450.
+(Font)              scaled to size 10.0pt on input line 399.
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--450
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\T1/qtm/m/n/10 Ryusuke Miyamoto et al.: ``Vision-Based Road-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 450--450
-\T1/qtm/m/n/10 Following Us-ing Re-sults of Se-man-tic Seg-men-ta-tion
+Underfull \hbox (badness 1297) in paragraph at lines 399--399
+\T1/qtm/m/it/10 Con-fer-ence on Con-sumer Elec-tron-ics (ICCE-Berlin)\T1/qtm/m/n/10 .
  []
 
-
-Underfull \hbox (badness 6300) in paragraph at lines 450--450
-\T1/qtm/m/n/10 for Au-tonomous Nav-i-ga-tion''. \T1/qtm/m/it/10 2019 IEEE 9th In-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 450--450
-\T1/qtm/m/it/10 ter-na-tional Con-fer-ence on Con-sumer Elec-tron-ics
- []
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 450.
+LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <10> not available
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 399.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 399.
+LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <10> not available
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 399.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 399.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 399.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1558) in paragraph at lines 450--450
+Underfull \hbox (badness 1558) in paragraph at lines 399--399
 []\T1/qtm/m/n/10 Andrew Howard et al.: \T1/qtm/m/it/10 Search-ing for Mo-bileNetV3\T1/qtm/m/n/10 .
  []
 
-[4]
-Underfull \hbox (badness 1231) in paragraph at lines 450--450
+
+Underfull \hbox (badness 1231) in paragraph at lines 399--399
 \T1/qtm/m/n/10 Net-work''. \T1/qtm/m/it/10 2021 In-ter-na-tional Con-fer-ence on In-tel-li-
  []
 
 File: ./figs/newroute.pdf Graphic file (type pdf)
 <./figs/newroute.pdf>
+
+Overfull \hbox (6.79683pt too wide) in paragraph at lines 403--404
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[4]
 File: figs/scenario/scenario01.pdf Graphic file (type pdf)
 <figs/scenario/scenario01.pdf>
 
-Overfull \hbox (8.53421pt too wide) in paragraph at lines 463--464
+Overfull \hbox (8.53421pt too wide) in paragraph at lines 410--411
  [][] 
  []
 
 File: figs/scenario/scenario02.pdf Graphic file (type pdf)
 <figs/scenario/scenario02.pdf>
 
-Overfull \hbox (8.53421pt too wide) in paragraph at lines 469--470
+Overfull \hbox (8.53421pt too wide) in paragraph at lines 416--417
  [][] 
  []
 
 File: figs/scenario/scenario03.pdf Graphic file (type pdf)
 <figs/scenario/scenario03.pdf>
 
-Overfull \hbox (8.53421pt too wide) in paragraph at lines 475--476
+Overfull \hbox (8.53421pt too wide) in paragraph at lines 422--423
  [][] 
  []
 
 File: figs/scenario/scenario04.pdf Graphic file (type pdf)
 <figs/scenario/scenario04.pdf>
 
-Overfull \hbox (8.53421pt too wide) in paragraph at lines 481--482
+Overfull \hbox (8.53421pt too wide) in paragraph at lines 428--429
  [][] 
  []
 
 File: figs/scenario/scenario05.pdf Graphic file (type pdf)
 <figs/scenario/scenario05.pdf>
 
-Overfull \hbox (8.53421pt too wide) in paragraph at lines 487--488
+Overfull \hbox (8.53421pt too wide) in paragraph at lines 434--435
  [][] 
  []
 
 File: figs/scenario/scenario06.pdf Graphic file (type pdf)
 <figs/scenario/scenario06.pdf>
 
-Overfull \hbox (8.53421pt too wide) in paragraph at lines 493--494
+Overfull \hbox (8.53421pt too wide) in paragraph at lines 440--441
  [][] 
  []
 
 File: figs/scenario/scenario07.pdf Graphic file (type pdf)
 <figs/scenario/scenario07.pdf>
 
-Overfull \hbox (8.53421pt too wide) in paragraph at lines 499--500
+Overfull \hbox (8.53421pt too wide) in paragraph at lines 446--447
  [][] 
  []
 
@@ -919,16 +930,14 @@ File: figs/exp_path_follow_6.png Graphic file (type bmp)
 File: figs/exp_path_follow_7.png Graphic file (type bmp)
 <figs/exp_path_follow_7.png>
 
-Overfull \hbox (19.99997pt too wide) in paragraph at lines 508--547
+Overfull \hbox (19.99997pt too wide) in paragraph at lines 455--493
 [][][][] 
  []
 
 ***** List of packages loaded by `plautopatch': *****
  plarray, plsiunitx.
 *****************************************************
-[5
-
-] [6] [7] (out/SICE-SI_sample.aux)
+[5] [6] (out/SICE-SI_sample.aux)
 Package logreq Info: Writing requests to 'SICE-SI_sample.run.xml'.
 \openout1 = `SICE-SI_sample.run.xml'.
 
@@ -936,10 +945,10 @@ Package logreq Info: Writing requests to 'SICE-SI_sample.run.xml'.
 Here is how much of TeX's memory you used:
  19926 strings out of 478741
  435312 string characters out of 5860982
- 1098513 words of memory out of 5000000
+ 1098515 words of memory out of 5000000
  38071 multiletter control sequences out of 15000+600000
  536969 words of font info for 111 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 96i,13n,93p,1172b,1290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,13n,93p,1172b,1275s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/SICE-SI_sample.dvi (7 pages, 36404 bytes).
+Output written on out/SICE-SI_sample.dvi (6 pages, 35908 bytes).

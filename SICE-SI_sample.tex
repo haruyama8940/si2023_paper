@@ -8,7 +8,7 @@
 上田隆一（千葉工大）林原靖男（千葉工大）} % 著者名
 \etitle{A proposal for an online imitation method of
 path-tracking behavior by end-to-end learning of vision and action\\
-- Adding and consideration  of path selection function \\based on a topological map and scenario -} % 英文タイトル
+- Addition and consideration  of path selection function \\based on a topological map and scenario -} % 英文タイトル
 \ename{○Kenta HARUYAMA (CIT)，Masaki FUJIWARA (CIT)，Ryusei BABA (CIT)，\\
 Takumi ISHIGURO (CIT)，Ryuichi UEDA (CIT)，Yasuo HAYASHIBARA (CIT)}	%著者名（英）
 
@@ -25,31 +25,19 @@ We confirmed the effectiveness of the method through the experiments using a rea
 
 % 本文
 \section{緒言}
-% 本研究グループでは，LiDARなどをセンサ入力とする行動を
-% カメラ画像を入力とする行動へ模倣することで，
-% ロボットに複数のナビゲーション手段を与える手法を提案してきた
-% \cite{haruyama2022}\cite{fujiwara2023}．
-自律移動ロボットの，経路計画や自己位置推定には
-事前に作成したメトリックマップが広く利用されている．
-しかし，人の往来や，環境の変化などの理由で，
-地図と環境の不一致により自律移動を継続できない場合がある．
-本研究グループでは，メトリックマップを利用しない自律移動の手段として，
-カメラ画像と目標とする進行方向を入力とした，経路を追従する行動
-を模倣学習により獲得する手法を提案し，
-実験により手法の有効性を検証してきた\cite{haruyama2022}\cite{fujiwara2023}．
-% 2つのナビゲーション手段が得られる．この2つの手段を状況
-% に応じて高い信頼性が見込まれる方を選択することで，
-% 経路追従を継続できる可能性が高まる．
-この手法では，
-LiDARなどをセンサ入力とする行動を
-カメラ画像と進行方向の情報（以後，目標方向と呼ぶ）を
-入力として模倣するように学習する．
-これにより，ロボットはFig.\ref{fig:camera_base}のような
-カメラ画像に基づいて経路を追従する行動を獲得できる．
-分岐路では，外部から与えられる，例えば「右折」などの目標方向によって
-経路を選択して走行する．
-ただし，目標方向をカメラ画像により生成していなかったため，
-カメラ画像のみで目的地まで移動することはできなかった．
+実世界では，ある特定のセンサが機能しない状況におちいり．ロボットの自律移動が継続できない場合がある．
+この問題に対しては，複数の種類のセンサを用いて自己位置推定する方法や，
+ナビゲーション手段自体を冗長化する方法が考えられる．
+本研究グループでは，冗長化に向けて，
+一般的に用いられるLiDARと地図によるナビゲーションを機械学習で模倣することで，
+視覚によるナビゲーションを獲得する方法を提案した\cite{haruyama2022}\cite{fujiwara2023}．
+一般的な模倣学習が人の挙動を模倣するのに対して，提案手法はLiDARと地図によるナビゲーションの
+出力を模倣するため，データセットを収集する手間を省くことができるという特長がある．
+さらに前報\cite{haruyama2022}\cite{fujiwara2023}では，
+分岐路で指定した方向(以後,目標方向と呼ぶ)に移動する機能を追加した．
+これにより，ロボットは Fig.1 のように指示された方向に移動するように，カメラ画像に基づいて経路を移動する．
+ただし,前報までのシステムは，
+目標方向をカメラ画像により生成していなかったため,カメラ画像のみで目的地まで移動することはできなかった.
 \par
 % 前報\cite{haruyama2022}\cite{fujiwara2023}ではカメラ画像に基づいて目的地まで自律移動する際に，
 % Fig.\ref{fig:camera_base}のようにカメラ画像から目標方向を作成していなかった．
@@ -74,7 +62,7 @@ Dhruvら\cite{shah2022lmnav}は大規模な事前学習モデルを用いて，�
 必要と
 % することが本稿で提案する手法との違いに挙げられる．
 している．センサ入力という観点で比較すると，
-本手法はカメラ画像のみで目的地まで移動できるという違いがある．
+本システムはカメラ画像のみで目的地まで移動できるという違いがある．
 本稿では，提案するシステムにより目的地までカメラ入力のみで自律移動できるかを，
 実ロボットを用いた実験により検証する．
 % 提案システムの有効性を実ロボットを用いた実験により検証する．
@@ -105,7 +93,7 @@ Dhruvら\cite{shah2022lmnav}は大規模な事前学習モデルを用いて，�
 \end{figure*}
 \section{提案システム}
 提案するシステムについて述べる．
-提案するシステムでは，人間が作成した「次の角まで直進．左折」などのシナリオから
+提案するシステムでは，人間が作成した「次の角まで直進．左折．」などのシナリオから
 指示された道順に従い，カメラ画像に基づいて目的地まで自律移動する．
 % この手法の特徴として，目的地までの自律移動に，LiDARなどを用いて事前に
 % 作成したメトリックマップを必要としないことが挙げられる．
@@ -165,7 +153,6 @@ Fig.\ref{fig:system}に提案システムの概要と一連の流れを示す．
 % 3）のモジュールは経路に沿って右折する．
 
 
-
 \subsection{経路追従モジュール}
 % カメラ画像と目標方向に基づいて，
 前報[1][2]の提案手法に基づき構築した経路追従モジュールについて述べる．
@@ -173,7 +160,7 @@ Fig.\ref{fig:system}に提案システムの概要と一連の流れを示す．
 カメラ画像に基づいて経路を追従するモジュールであり，
 分岐路では入力された目標方向によって経路を選択して走行する．
 % カメラ画像に基づく経路追従は，
-% 地図を用いたルールベース制御器の出力を模倣するように学習することで
+% メトリックマップを用いたルールベース制御器の出力を模倣するように学習することで
 % 獲得する\cite{haruyama2022}\cite{fujiwara2023}．
 % これにより，学習後はRGBカメラのセンサ入力のみで経路追従が可能である．
 \par
@@ -183,11 +170,12 @@ Fig.\ref{fig:learning}に経路追従モジュールのシステムを示す．
 設定した経路を走行する．
 その際，入力をカメラ画像と目標方向，
 出力をヨー方向の角速度とするデータを，0.2秒周期でデータセットに加える．
-このヨー方向の角速度は地図を用いたルールベース制御器が出力する信号である．
+このヨー方向の角速度はメトリックマップに基づいたルールベース制御器が出力する信号である．
 さらに，バッチサイズを8として教師データを抽出し，
 0.2秒の周期でオンラインで学習する．
 このデータセットへのデータの追加から学習までの1連の流れを1ステップとする．
-学習時の目標方向は，地図に基づいたルールベースの制御器から出力される信号である．
+学習時のデータセットへ加える目標方向には，
+メトリックマップに基づいたルールベースの制御器から出力を用いる．
 データセットの収集には，藤原ら\cite{fujiwara2023}が提案した
 データセットの不均衡の改善，
 学習時における積極的な蛇行といった最も経路追従の成功率の高い手法を採用する．
@@ -224,10 +212,10 @@ Fig.\ref{fig:topo2sce}にトポロジカルマップの例とそれを基に作�
 図の例では出発地点をエッジ2，目的地をノード2として，その間のエッジとノードを移動する．
 エッジ2からノード1は「三叉路まで」という条件と「直進」という行動，
 ノード1からエッジ1は「右折」という行動，
-エッジ1からノード1は「突き当り（三叉路）まで」という条件と「直進」の行動で表現される．
+エッジ1からノード2は「突き当り（三叉路）まで」という条件と「直進」の行動で表現される．
 これらを統合すると，
 最終的に「三叉路まで直進．右折．突き当たりまで直進．停止．」
-が作成される．\par
+のシナリオが作成される．\par
 次に作成されたシナリオを目標方向として変換する方法を述べる．
 目標方向への変換では
 シナリオを句点ごとに分解後，「条件」と「行動」を示す言葉を抽出し，
@@ -238,11 +226,11 @@ Fig.\ref{fig:topo2sce}にトポロジカルマップの例とそれを基に作�
 %     \item [3）] 方向
 %     \item [3）] 方向
 % \end{enumerate}
-1）通路の特徴　例として，三叉路，角など\\
-2）順番　例として，3つ目の，2番目のなど\\
-3）方向　例として，左手に，右手になど\\
-4）行動　例として，右折，停止など\\
-シナリオの例は句点ごとに
+1）通路の特徴　例えば，「三叉路」「角」など\\
+2）順番　例えば，「3つ目の」「2番目の」など\\
+3）方向　例えば，「左手に」「右手に」など\\
+4）行動　例えば，「右折」「停止」など\\
+先に示した例は句点ごとに
 三叉路まで直進/　
 右折/　
 突き当たりまで直進/　
@@ -250,7 +238,7 @@ Fig.\ref{fig:topo2sce}にトポロジカルマップの例とそれを基に作�
 と分解される．
 1つ目の条件と行動は
 1）通路の特徴　三叉路，4）行動　直進となる．
-2つ目の行動は4）行動：右折となる．
+2つ目の行動は4）行動　右折となる．
 この一連の処理を末尾まで行う．
 この「行動」を分岐路での目標方向に変換して，前述の経路追従モジュールへ与える．
 目標方向のデータ形式をTable \ref{tab:target}に示す．
@@ -279,47 +267,47 @@ Fig.\ref{fig:topo2sce}にトポロジカルマップの例とそれを基に作�
 通路分類モジュールについて述べる．
 このモジュールは，
 シナリオの「条件」を満たすかの判定に必要な通路の特徴を，
-カメラ画像を入力して分類する．
+カメラ画像を入力として分類する．
 通路分類モジュールの概要をFig.\ref{fig:lrcn}に示す．このモジュールは
 フレーム数16，画像サイズ64×48の連続した画像データ
-を入力とし，通路の特徴を分類した結果を出力とする．
+を入力とし，通路の特徴を分類した結果を出力する．
 通路の特徴の分類は島田らの手法\cite{shimada2020}に倣い，
 Fig.\ref{fig:intersection}に示した８つとする．
 このモジュールのネットワークアーキテクチャは
-Dhaivatらが提案するCNNとLSTMを組み合わせたLRCN\cite{lrcn}に倣って構築した．
+Dhaivatらが提案するCNNとLSTMを組み合わせたIntersectNet\cite{lrcn}に倣って構築した．
 なお，CNNアーキテクチャにはMobileNetV3-Large\cite{v3}を用いている．
 % シーケンスデータのフレーム数は16 
 
 \begin{figure}[h!]
     \centering
     %  \includegraphics[height=30mm,width=70mm]{./figs/LRCN_gai.png}
-     \includegraphics[height=30mm,width=80mm]{./figs/corridor_class.pdf}
+     \includegraphics[height=28mm]{./figs/corridor_class.pdf}
      \caption{Overview of the corridor classification module}\label{fig:lrcn}
 \end{figure}
 \begin{figure}[h!]
     \centering
     %  \includegraphics[height=40mm,width=80mm]{./figs/corridor.pdf}
-     \includegraphics[height=38mm]{./figs/corridor.pdf}
+     \includegraphics[height=36mm]{./figs/corridor.pdf}
      \caption{Types of corridor features}\label{fig:intersection}
 \end{figure}
 \par
 次に通路分類モジュールのデータセットの作成について述べる．
 データの作成では，経路追従モジュールの学習と同様に，
-地図に基づいたルールベース制御器によって経路を走行する．
+メトリックマップに基づいたルールベース制御器によって経路を走行する．
 その際，フレーム数16の連続したカメラ画像と
 通路の分類ラベルを1組とし，0.125秒周期でデータセットへ加える．
 分類ラベルのアノテーションは，Fig.\ref{fig:map2label}に示すように，
 通路の特徴を予め地図に登録しておくことで，自動的に行う．
 % なお，分類ラベルのアノテーションは，Fig.\ref{fig:map2label}に示すように
-% 地図に基づいたルールベース制御器の出力を用いて，自動的に行う．
+% メトリックマップに基づいたルールベース制御器の出力を用いて，自動的に行う．
 \begin{figure}[h!]
     \centering
     %  \includegraphics[height=40mm,width=80mm]{./figs/map_label.pdf}
-     \includegraphics[height=40mm]{./figs/map_label.pdf}
+     \includegraphics[height=38mm]{./figs/map_label.pdf}
      \caption{Classification labels registered in the metric map}\label{fig:map2label}
 \end{figure}
 \par
-学習に用いるデータセット内で，各クラスのデータ数が大きく異なる不均衡データは，
+学習するデータセット内で，各クラスのデータ数が大きく異なる不均衡データは，
 分類に大きな影響を与える
 \cite{hukin}
 とされている．
@@ -327,17 +315,17 @@ Dhaivatらが提案するCNNとLSTMを組み合わせたLRCN\cite{lrcn}に倣っ
 重み付けを行うコストアプローチ\cite{cost}を導入している．
 
 \section{実験}
-実ロボットを用いて,提案するカメラ画像とシナリ
-オに基づく経路追従システムにより,ロボットが目的地へ到達可能であるか検証する.
+実ロボットを用いて,提案するシステムにより,
+ロボットが目的地へ到達可能であるか検証する.
 % 提案するシステムによって，ロボットが目的地へ到達可能
 % であるか，実ロボットを用いた実験により検証する．
 \subsection{実験装置}
 実験にはFig.\ref{fig:gamma}で示すロボットを使用する．
 単眼ウェブカメラを3つ，2D-LiDAR(北陽電機 UTM-30LX)を1つ搭載して
 いる.制御用のPCには(GALLERIA GCR2070RGF-QC-G)を使用している.
-\begin{figure}[t]
+\begin{figure}[htbp]
     \centering
-     \includegraphics[height=40mm]{./figs/gamma_sensor.png}
+     \includegraphics[height=38mm]{./figs/gamma_sensor.png}
      \caption{Experimental setup}\label{fig:gamma}
 \end{figure}
 \subsection{実験方法}
@@ -355,58 +343,40 @@ Fig.\ref{fig:scenario_exp}に示す
 「後ろを向く」など経路追従モジュールができない行動が含まれていないことである．
 % Fig.\ref{fig:scenario_exp}に実験で用いた7例のシナリオを示す．
 % Fig.\ref{fig:cit3f}に示したエリアを対象として抽出した7例を用いる．
-% シナリオの抽出において，1．地図を用いたルールベース制御器で通行が困難な場所が含まれるもの．
+% シナリオの抽出において，1．メトリックマップを用いたルールベース制御器で通行が困難な場所が含まれるもの．
 % 2．その場で「右を向く」といった経路追従モジュールが達成困難なもの
 % を除外している．
-\par
+% \par
 まずはじめに通路分類モジュールの訓練を行う．
-前述の経路を地図に基づいたルールベース制御器の出力を用いて，3周し，
+前述の経路をメトリックマップに基づいたルールベース制御器の出力を用いて，3周し，
 データセットを収集する．
-% その際，データセットへのデータの追加は0.125秒周期で行う．
 収集したデータは，1，2周目を訓練データとし，3周目をテストデータとする．
 それぞれのデータ数は，
 訓練データ5781，テストデータ2902である．
 訓練はバッチサイズを32として，30epoch行った．
-訓練の結果，テストデータに対するAccuracyは0.98であった．\par
+訓練の結果，テストデータに対するAccuracyは0.98であった．
 次に経路追従モジュールの訓練を行う．
 通路分類モジュールの訓練と同様の経路を，オンラインで模倣学習しながら1周走行する．
 その際のステップ数は12000であった．
-% データセットへのデータの追加は0.2秒周期で行う．
 \par
 2つのモジュールを訓練後，シナリオを1例ずつ入力して，ロボットの挙動を観察する．
 実験では，ロボットをシナリオのスタート地点に移動して，自律移動を開始する．
-% なお，経路から外れるといった要因で走行の継続が困難になった場合でも即時失敗とせず，
-% 失敗箇所を記録しながら，人間が介入し，実験を継続する．
-% 今回は，実験環境を2号館3階の一部のエリアに限定しているが，
-% 今後はフロア全体へ拡張する予定である．
 \begin{figure}[htbp]
     \centering
-     \includegraphics[height=40mm,width=80mm]{./figs/cit3f.pdf}
+    %  \includegraphics[height=40mm,width=80mm]{./figs/cit3f.pdf}
+     \includegraphics[height=38mm]{./figs/cit3f.pdf}
      \caption{Experimental environment}\label{fig:cit3f}
 \end{figure}
-% \begin{figure}[htbp]
-%     \centering
-%      \includegraphics[height=100mm,width=80mm]{./figs/newroute.png}
-%      \caption{Route for the added experiment}\label{fig:newroute}
-% \end{figure}
-
-% \begin{figure}[h!]
-%     \centering
-%      \includegraphics[height=50mm]{./figs/scenario24.png}
-%      \caption{Example of the scenario}\label{fig:scenario24}
-% \end{figure}
-% \begin{figure}[htbp]\vspace*{-2zh}
-
 
 \subsection{実験結果}
 Fig.\ref{fig:exp_path}にFig.\ref{fig:scenario24}のシナリオを入力した実験の様子
-を示す.図に示すように,シナリオで指定された道順
-に従い,三叉路などの分岐路で適切に経路を選択して
-自律移動する様子が見られた.結果として，7例すべ
-ての例でロボットが,指定された経路を追従して目的
-地へ到達した.以上の結果から,提案するカメラ画像
+を示す．図に示すように,シナリオの道順に従い,
+三叉路などの分岐路で適切に経路を選択して
+自律移動する様子が見られた．結果として，7例すべ
+てでロボットが,目的地へ到達した．
+以上の結果から,提案するカメラ画像
 とシナリオに基づいて,経路を追従して目的地まで自
-律移動するシステムの有効性が確認された.
+律移動するシステムの有効性が確認された．
 % 7例すべての例でロボットは指定された経路を追従して目的地へ到達した．
 % % 実験結果をTable \ref{tab:result}に示す．
 % % 表はそれぞれ実験に用いたシナリオの番号，学習器の出力が要因による介入の回数，
@@ -419,44 +389,21 @@ Fig.\ref{fig:exp_path}にFig.\ref{fig:scenario24}のシナリオを入力した�
 % 経路を追従して目的地まで自律移動するシステムの有効性が確認された．
 % シナリオに基づくナビゲーションとカメラ画像による通路分類を追加したシステムが，
 % 適切に動作することを確認した．
-
 \section{結言}
 本稿では,事前に作成したメトリックマップを用い
 ず,カメラ画像とシナリオに基づいて経路を追従して
-目的地まで自律移動するシステムを提案した.そして,実
+目的地まで自律移動するシステムを提案した．そして,実
 ロボットを用いた実験により提案システムの有効性を検証
-した.実験では,提案システムにより,ロボットが目的地
-へ到達可能であることを確認した.
-% 本稿では，事前に作成したメトリックマップを用いず，カメラ画像とシナリオに基づいて
-% 経路を追従して目的地まで自律移動するシステムを提案した．
-% そして，実ロボットを用いた実験を行い，提案システムにより，
-% ロボットが目的地へ到達可能であることを確認した．
-
-% 経路選択機能を持つ学習器を用いた走行に対して，
-% カメラ画像からの目標方向の作成を目的として，シナリオを
-% 用いたナビゲーションと通路分類モジュールの
-% 追加を行った．
-% 実験では,提案システムにより，指示された経路を
-% カメラ画像に基づいて，追従し，目的地へ到達なことを確認した
-% 学習器がカメラ画像と作成された目標方向を用いて，
-% 指定された経路に沿って目的地へ到達可能なことを確認した．
-% 今後は，実験環境をより広い屋内，または屋外へと拡大する予定である．
-% \begin{figure}[htbp]
-%     \centering
-%      \includegraphics[height=40mm,width=80mm]{./figs/keiro.png}
-%      \caption{Experimental environment}\label{fig:cit3f}
-% \end{figure}
-
+した．実験では,提案システムにより，ロボットが目的地
+へ到達可能であることを確認した．
 \printbibliography[title=参考文献]
-\begin{figure*}[t]
+\begin{figure*}[htbp]
     \centering
     %  \includegraphics[height=120mm,width=160mm]{./figs/newroute.pdf}
-     \includegraphics[width=160mm]{./figs/newroute.pdf}
+     \includegraphics[height=120mm]{./figs/newroute.pdf}
      \caption{Route used for learning}\label{fig:newroute}
 \end{figure*}
-
-\setlength\textfloatsep{0pt}
-\begin{figure*}[t]
+\begin{figure*}[htbp]
     \begin{tabular}{ccc}
         \begin{minipage}[t]{0.3\textwidth}
             \centering
@@ -504,7 +451,7 @@ Fig.\ref{fig:exp_path}にFig.\ref{fig:scenario24}のシナリオを入力した�
     \caption{Scenarios used in the experiment}\label{fig:scenario_exp}
 \end{figure*}
 
-\begin{figure*}[t]\vspace*{-10zh}
+\begin{figure*}[htbp]
     \begin{tabular}{ccc}
         \begin{minipage}[t]{0.5\textwidth}
             \centering
@@ -521,7 +468,6 @@ Fig.\ref{fig:exp_path}にFig.\ref{fig:scenario24}のシナリオを入力した�
             \centering
             \includegraphics[keepaspectratio, width=80mm]{figs/exp_path_follow_2.png}
             \subcaption{右折(Third 3-way)}
-            
         \end{minipage} &
         \begin{minipage}[t]{0.5\textwidth}
             \centering
@@ -532,7 +478,7 @@ Fig.\ref{fig:exp_path}にFig.\ref{fig:scenario24}のシナリオを入力した�
             \centering
             \includegraphics[keepaspectratio, width=80mm]{figs/exp_path_follow_5.png}
             \subcaption{左折(End)}
-        \end{minipage}&
+        \end{minipage} &
         \begin{minipage}[t]{0.5\textwidth}
             \centering
             \includegraphics[keepaspectratio, width=80mm]{figs/exp_path_follow_6.png}
